@@ -1,0 +1,89 @@
+
+/**
+ * Yoast SEO
+ *
+ * SEO plugin.
+ * https://wordpress.org/plugins/wordpress-seo/
+ */
+
+.yoast-breadcrumb {
+
+    background: none;
+    padding-left: 0;
+    padding-right: 0;
+
+    > li {
+        + li::before {
+            padding-right: $breadcrumb-item-padding;
+            padding-left: $breadcrumb-item-padding;
+        }
+    }
+
+    a {
+        padding-left: $breadcrumb-item-padding;
+        padding-right: $breadcrumb-item-padding;
+        color: inherit !important;
+    }
+
+	.breadcrumb_last {
+		padding-left: $breadcrumb-item-padding;
+		max-width: 250px;
+		display: inline-block;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		vertical-align: middle;
+	}
+
+    > span > [typeof="v:Breadcrumb"] > a {
+        padding-left: 0;
+    }
+
+    .region--12-cols-center & {
+        justify-content: center;
+        text-align: center;
+    }
+
+	.grimlock-custom_header & {
+		padding-top: 1rem;
+		margin-bottom: 0;
+		padding-bottom: .25rem;
+		display: flex;
+		flex: 0 0 100%;
+		color: currentColor !important;
+		order: -1;
+		opacity: .6;
+		a {
+			&,
+			&:hover,
+			&:focus,
+			&:active {
+				color: inherit !important;
+			}
+			&:hover {
+				opacity: .7;
+			}
+		}
+	}
+
+	.grimlock-wordpress-seo--breadcrumb_custom_header_displayed .site-content & {
+		display: none;
+	}
+
+	body.single.single-post .grimlock-custom_header & {
+
+		.breadcrumb_last {
+			display: none;
+		}
+
+		a {
+			color: #fff !important;
+		}
+
+		span span span {
+			color: transparent;
+		}
+	}
+
+}
+

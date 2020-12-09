@@ -1,0 +1,59 @@
+
+/**
+ * Captions
+ *
+ * Caption styles. Like legend for figures, images or other block.
+ */
+
+.wp-caption {
+	margin-bottom: 2.5em;
+	width: 100%;
+	max-width: 100%;
+	position: relative;
+
+	img[class*="wp-image-"] {
+		margin-bottom: 0;
+		max-width: 100%;
+		width: auto;
+		box-shadow: 0 0 40px rgba(0, 0, 0, 0.05);
+	}
+
+	.wp-caption-text {
+		font-style: italic;
+		position: absolute;
+		bottom: 6%;
+		width: 230px;
+		max-width: 100%;
+		font-size: 0.95em;
+		padding: 15px 20px;
+		background: #333;
+		margin: 0;
+		color: #fff;
+		text-align: left;
+		box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+		left: 0;
+	}
+
+	&.alignnone {
+		max-width: 100% !important;
+		img[class*="wp-image-"] {
+			@include center-block;
+		}
+	}
+
+	&.alignright {
+		.wp-caption-text {
+			left: auto;
+			right: 0;
+		}
+	}
+
+	a {
+		color: inherit !important;
+		opacity: 0.75;
+		&:hover {
+			opacity: 1;
+		}
+	}
+}
+

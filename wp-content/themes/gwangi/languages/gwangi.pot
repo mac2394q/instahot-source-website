@@ -1,0 +1,836 @@
+# Copyright (C) 2020 gwangi
+# This file is distributed under the same license as the gwangi package.
+msgid ""
+msgstr ""
+"Project-Id-Version: gwangi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Themosaurus <support@themosaurus.com>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: attachment.php:22
+msgid "Previous Image"
+msgstr ""
+
+#: attachment.php:23
+msgid "Next Image"
+msgstr ""
+
+#: attachment.php:40
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr ""
+
+#: attachment.php:76, inc/template-functions.php:519, inc/template-functions.php:570, inc/grimlock/component/class-gwangi-grimlock-post-component.php:104
+msgid "Pages:"
+msgstr ""
+
+#: attachment.php:80, inc/template-functions.php:523, inc/template-functions.php:574
+msgid "Page"
+msgstr ""
+
+#. translators: %s: Name of current post
+#. translators: %s: Name of current post
+#. translators: %s: Name of current post
+#. translators: %s: Name of current post
+#. translators: %s: Name of current post
+#: attachment.php:91, inc/template-functions.php:351, inc/template-functions.php:536, inc/template-functions.php:586, inc/grimlock/component/class-gwangi-grimlock-post-component.php:151
+msgid "Edit %s"
+msgstr ""
+
+#. translators: 1: Comment number, 2: Post title
+#: comments.php:33
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:42, comments.php:64
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:45, comments.php:67
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:46, comments.php:68
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:79
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:1202, inc/template-functions.php:612, inc/template-functions.php:616
+msgid "404"
+msgstr ""
+
+#: functions.php:1214, inc/template-functions.php:617
+msgid "Page not found."
+msgstr ""
+
+#: functions.php:1222, inc/template-functions.php:618
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+#: functions.php:1313
+msgid "Community Events"
+msgstr ""
+
+#: functions.php:1317
+msgid "Take part in our special community events to meet new people or just have fun!"
+msgstr ""
+
+#: functions.php:1358
+msgid "Welcome to the Forum"
+msgstr ""
+
+#: functions.php:1362
+msgid "Share your thoughts on several topics like lifestyle, social, leisure or simply learn to know each other!"
+msgstr ""
+
+#: header.php:41
+msgid "Skip to main content"
+msgstr ""
+
+#. translators: %s: The search query
+#. translators: %s: The search query
+#: search.php:24, inc/template-functions.php:102
+msgid "Search Results for: %s"
+msgstr ""
+
+#: searchform.php:13, template-parts/content-search-form.php:20
+msgid "Search everything..."
+msgstr ""
+
+#: searchform.php:15
+msgid "Search &hellip;"
+msgstr ""
+
+#: searchform.php:15
+msgid "Search for:"
+msgstr ""
+
+#: template-classic-12-cols-left.php:5
+msgid "Full Width Template"
+msgstr ""
+
+#: template-classic-3-9-cols-left.php:5
+msgid "Sidebar Template: Left"
+msgstr ""
+
+#: template-classic-9-3-cols-left.php:5
+msgid "Sidebar Template: Right"
+msgstr ""
+
+#: template-homepage-minimal.php:5
+msgid "Homepage Template: Minimal"
+msgstr ""
+
+#: template-homepage.php:5
+msgid "Homepage Template"
+msgstr ""
+
+#: template-minimal.php:5
+msgid "Minimal Template"
+msgstr ""
+
+#: template-narrow-12-cols-left.php:5
+msgid "Full Width Template: Narrow"
+msgstr ""
+
+#: template-narrower-12-cols-left.php:5
+msgid "Full Width Template: Narrower"
+msgstr ""
+
+#: template-search.php:5
+msgid "Search Template"
+msgstr ""
+
+#: inc/class-gwangi.php:74, inc/class-gwangi.php:166
+msgid "Primary"
+msgstr ""
+
+#: inc/class-gwangi.php:171
+msgid "Secondary"
+msgstr ""
+
+#: inc/class-gwangi.php:176
+msgid "Gray Dark"
+msgstr ""
+
+#: inc/class-gwangi.php:181
+msgid "Gray"
+msgstr ""
+
+#: inc/class-gwangi.php:186
+msgid "Gray Light"
+msgstr ""
+
+#: inc/class-gwangi.php:191
+msgid "Gray Lighter"
+msgstr ""
+
+#: inc/class-gwangi.php:196
+msgid "Gray Lightest"
+msgstr ""
+
+#: inc/class-gwangi.php:201
+msgid "Info"
+msgstr ""
+
+#: inc/class-gwangi.php:206
+msgid "Danger"
+msgstr ""
+
+#: inc/class-gwangi.php:211
+msgid "Success"
+msgstr ""
+
+#: inc/class-gwangi.php:216
+msgid "Warning"
+msgstr ""
+
+#: inc/class-gwangi.php:226
+msgid "Small"
+msgstr ""
+
+#: inc/class-gwangi.php:227
+msgid "S"
+msgstr ""
+
+#: inc/class-gwangi.php:232
+msgid "Regular"
+msgstr ""
+
+#: inc/class-gwangi.php:233
+msgid "M"
+msgstr ""
+
+#: inc/class-gwangi.php:238
+msgid "Large"
+msgstr ""
+
+#: inc/class-gwangi.php:239
+msgid "L"
+msgstr ""
+
+#: inc/class-gwangi.php:244
+msgid "Larger"
+msgstr ""
+
+#: inc/class-gwangi.php:245
+msgid "XL"
+msgstr ""
+
+#: inc/class-gwangi.php:250
+msgid "Largest"
+msgstr ""
+
+#: inc/class-gwangi.php:251
+msgid "XXL"
+msgstr ""
+
+#: inc/class-gwangi.php:308
+msgid "Thumbnail: One Column"
+msgstr ""
+
+#: inc/class-gwangi.php:309
+msgid "Thumbnail: Two Columns"
+msgstr ""
+
+#: inc/class-gwangi.php:310
+msgid "Thumbnail: Three Columns"
+msgstr ""
+
+#: inc/class-gwangi.php:311
+msgid "Thumbnail: Four Columns"
+msgstr ""
+
+#: inc/class-gwangi.php:312
+msgid "Thumbnail: One Column Lateral"
+msgstr ""
+
+#: inc/class-gwangi.php:313
+msgid "Thumbnail: Two Columns Lateral"
+msgstr ""
+
+#: inc/class-gwangi.php:338
+msgid "Sidebar 1"
+msgstr ""
+
+#: inc/class-gwangi.php:339
+msgid "The left hand area for all pages."
+msgstr ""
+
+#: inc/class-gwangi.php:343
+msgid "Footer 1"
+msgstr ""
+
+#: inc/class-gwangi.php:344
+msgid "The first area for the footer of all pages."
+msgstr ""
+
+#: inc/class-gwangi.php:348
+msgid "Footer 2"
+msgstr ""
+
+#: inc/class-gwangi.php:349
+msgid "The second area for the footer of all pages."
+msgstr ""
+
+#: inc/class-gwangi.php:353
+msgid "Footer 3"
+msgstr ""
+
+#: inc/class-gwangi.php:354
+msgid "The third area for the footer of all pages."
+msgstr ""
+
+#: inc/class-gwangi.php:358
+msgid "Footer 4"
+msgstr ""
+
+#: inc/class-gwangi.php:359
+msgid "The fourth area for the footer of all pages."
+msgstr ""
+
+#: inc/class-gwangi.php:420
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/template-functions.php:320, inc/template-functions.php:327, inc/template-functions.php:428, inc/template-functions.php:435
+msgid "Continue reading"
+msgstr ""
+
+#: inc/template-functions.php:620
+msgid "Go back to homepage"
+msgstr ""
+
+#: inc/template-functions.php:657
+msgid "Posted on"
+msgstr ""
+
+#: inc/template-functions.php:671
+msgid "by"
+msgstr ""
+
+#: inc/template-functions.php:687
+msgid "Sticky"
+msgstr ""
+
+#. translators: 1: Name of current post, 2: Right arrow
+#: inc/template-functions.php:710
+msgid "Continue reading %1$s %2$s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-functions.php:727
+msgid ", "
+msgstr ""
+
+#. translators: %s: The post format name
+#: inc/template-functions.php:762
+msgid "View posts formatted as %s"
+msgstr ""
+
+#: inc/template-functions.php:804
+msgid "By"
+msgstr ""
+
+#. translators: %s: The author name
+#: inc/template-functions.php:811
+msgid "View all posts by %s"
+msgstr ""
+
+#: inc/template-functions.php:840
+msgid "Pingback:"
+msgstr ""
+
+#. translators: 1: Date, 2: Time
+#: inc/template-functions.php:870
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/template-functions.php:881
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/template-functions.php:899
+msgid "Edit"
+msgstr ""
+
+#: inc/template-functions.php:936
+msgid "Y"
+msgstr ""
+
+#: inc/template-functions.php:938
+msgid "F Y"
+msgstr ""
+
+#: inc/template-functions.php:940
+msgid "F j, Y"
+msgstr ""
+
+#: inc/template-functions.php:943
+msgid "Asides"
+msgstr ""
+
+#: inc/template-functions.php:945
+msgid "Galleries"
+msgstr ""
+
+#: inc/template-functions.php:947
+msgid "Images"
+msgstr ""
+
+#: inc/template-functions.php:949
+msgid "Videos"
+msgstr ""
+
+#: inc/template-functions.php:951
+msgid "Quotes"
+msgstr ""
+
+#: inc/template-functions.php:953
+msgid "Links"
+msgstr ""
+
+#: inc/template-functions.php:955
+msgid "Statuses"
+msgstr ""
+
+#: inc/template-functions.php:957
+msgid "Audio"
+msgstr ""
+
+#: inc/template-functions.php:959
+msgid "Chats"
+msgstr ""
+
+#: inc/template-functions.php:966
+msgid "Archives"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: %s: Edit post admin URL
+#: template-parts/content-none.php:29
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:33
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:39
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/content-search-form.php:30
+msgid "Register"
+msgstr ""
+
+#: template-parts/content-search-form.php:31
+msgid "Activation"
+msgstr ""
+
+#: inc/grimlock/class-gwangi-grimlock.php:250
+msgid "Before Content"
+msgstr ""
+
+#: inc/grimlock/class-gwangi-grimlock.php:251
+msgid "The area before the content for all pages."
+msgstr ""
+
+#: inc/grimlock/class-gwangi-grimlock.php:255
+msgid "Homepage"
+msgstr ""
+
+#: inc/grimlock/class-gwangi-grimlock.php:256
+msgid "The area replacing the content for the homepage template."
+msgstr ""
+
+#: inc/grimlock/class-gwangi-grimlock.php:260
+msgid "After Content"
+msgstr ""
+
+#: inc/grimlock/class-gwangi-grimlock.php:261
+msgid "The area after the content for all pages."
+msgstr ""
+
+#: inc/grimlock/class-gwangi-grimlock.php:292
+msgid "Pre Header 1"
+msgstr ""
+
+#: inc/grimlock/class-gwangi-grimlock.php:293
+msgid "The first area before the header of all pages."
+msgstr ""
+
+#: inc/grimlock/class-gwangi-grimlock.php:297
+msgid "Pre Header 2"
+msgstr ""
+
+#: inc/grimlock/class-gwangi-grimlock.php:298
+msgid "The second area before the header of all pages."
+msgstr ""
+
+#: inc/grimlock/class-gwangi-grimlock.php:302
+msgid "Pre Header 3"
+msgstr ""
+
+#: inc/grimlock/class-gwangi-grimlock.php:303
+msgid "The third area before the header of all pages."
+msgstr ""
+
+#: inc/grimlock/class-gwangi-grimlock.php:307
+msgid "Pre Header 4"
+msgstr ""
+
+#: inc/grimlock/class-gwangi-grimlock.php:308
+msgid "The fourth area before the header of all pages."
+msgstr ""
+
+#: inc/grimlock/class-gwangi-grimlock.php:312
+msgid "Sidebar 2"
+msgstr ""
+
+#: inc/grimlock/class-gwangi-grimlock.php:313
+msgid "The right hand area for all pages."
+msgstr ""
+
+#: inc/grimlock/class-gwangi-grimlock.php:317
+msgid "Pre Footer 1"
+msgstr ""
+
+#: inc/grimlock/class-gwangi-grimlock.php:318
+msgid "The first area before the footer of all pages."
+msgstr ""
+
+#: inc/grimlock/class-gwangi-grimlock.php:322
+msgid "Pre Footer 2"
+msgstr ""
+
+#: inc/grimlock/class-gwangi-grimlock.php:323
+msgid "The second area before the footer of all pages."
+msgstr ""
+
+#: inc/grimlock/class-gwangi-grimlock.php:327
+msgid "Pre Footer 3"
+msgstr ""
+
+#: inc/grimlock/class-gwangi-grimlock.php:328
+msgid "The third area before the footer of all pages."
+msgstr ""
+
+#: inc/grimlock/class-gwangi-grimlock.php:332
+msgid "Pre Footer 4"
+msgstr ""
+
+#: inc/grimlock/class-gwangi-grimlock.php:333
+msgid "The fourth area before the footer of all pages."
+msgstr ""
+
+#: inc/grimlock/grimlock-template-functions.php:358
+msgid "Categories: "
+msgstr ""
+
+#: inc/grimlock/grimlock-template-functions.php:359
+msgid "All categories"
+msgstr ""
+
+#: inc/grimlock/grimlock-template-functions.php:362
+msgid "Post tags: "
+msgstr ""
+
+#: inc/grimlock/grimlock-template-functions.php:363
+msgid "All post tags"
+msgstr ""
+
+#: inc/grimlock/grimlock-template-functions.php:366
+msgid "Post formats: "
+msgstr ""
+
+#: inc/grimlock/grimlock-template-functions.php:367
+msgid "All post formats"
+msgstr ""
+
+#: inc/kirki/class-gwangi-kirki.php:44
+msgid "Gwangi is a Dating & Community theme that integrates seamlessly with BuddyPress and WooCommerce. It makes good use of the Customizer, allowing you to build a tailor-made community plateform using custom color, typography and layout options. Please visit <a href=\"https://doc.themosaurus.com/gwangi/\" target=\"_blank\">the Gwangi online documentation</a> or contact us via <a href=\"https://support.themosaurus.com\" target=\"_blank\">the Themosaurus support forums</a> for help."
+msgstr ""
+
+#: inc/merlin/class-gwangi-merlin.php:68, inc/merlin/class-gwangi-merlin.php:194, inc/merlin/class-gwangi-merlin.php:322, inc/merlin/class-gwangi-merlin.php:471, inc/merlin/class-gwangi-merlin.php:547, inc/merlin/class-gwangi-merlin.php:663, inc/merlin/class-gwangi-merlin.php:794, inc/merlin/class-gwangi-merlin.php:925, inc/merlin/class-gwangi-merlin.php:1070
+msgid "Visit doc.themosaurus.com to get the full documentation for the theme"
+msgstr ""
+
+#. translators: 1: Opening <a> tag 2: Closing <a> tag 3: Opening <strong> tag 4: Closing <strong> tag
+#. translators: 1: Opening <a> tag 2: Closing <a> tag 3: Opening <strong> tag 4: Closing <strong> tag
+#. translators: 1: Opening <a> tag 2: Closing <a> tag 3: Opening <strong> tag 4: Closing <strong> tag
+#: inc/merlin/class-gwangi-merlin.php:317, inc/merlin/class-gwangi-merlin.php:323, inc/merlin/class-gwangi-merlin.php:542, inc/merlin/class-gwangi-merlin.php:548, inc/merlin/class-gwangi-merlin.php:1065, inc/merlin/class-gwangi-merlin.php:1071
+msgid "Heads up!"
+msgstr ""
+
+#: inc/merlin/class-gwangi-merlin.php:317
+msgid "This demo uses the %1$sBP Maps for Members%2$s plugin to add the members map. This is a paid plugin and it is not included with Gwangi. If you want to use the members map, we recommend that you manually install it %3$safter%4$s importing this demo."
+msgstr ""
+
+#: inc/merlin/class-gwangi-merlin.php:323
+msgid "To complete this demo setup, don't forget to install the %1$sBP Maps for Members%2$s plugin if you want to use the members map."
+msgstr ""
+
+#: inc/merlin/class-gwangi-merlin.php:542
+msgid "This demo is based on the %1$sYouzer%2$s plugin. This is a paid plugin and it is not included with Gwangi. We recommend that you manually install it %3$safter%4$s importing this demo."
+msgstr ""
+
+#: inc/merlin/class-gwangi-merlin.php:548
+msgid "To complete this demo setup, don't forget to install the %1$sYouzer%2$s plugin."
+msgstr ""
+
+#: inc/merlin/class-gwangi-merlin.php:1065
+msgid "This demo is based on the %1$sLearnDash%2$s plugin. This is a paid plugin and it is not included with Gwangi. We recommend that you manually install it %3$sbefore%4$s importing this demo."
+msgstr ""
+
+#: inc/merlin/class-gwangi-merlin.php:1071
+msgid "To complete this demo setup, don't forget to install the %1$sLearnDash%2$s plugin if you haven't already."
+msgstr ""
+
+#: inc/merlin/class-gwangi-merlin.php:3333
+msgid "Theme Setup"
+msgstr ""
+
+#. translators: 1: Title Tag 2: Theme Name 3: Closing Title Tag
+#: inc/merlin/class-gwangi-merlin.php:3335
+msgid "%1$s%2$s Themes &lsaquo; Theme Setup: %3$s%4$s"
+msgstr ""
+
+#: inc/merlin/class-gwangi-merlin.php:3336
+msgid "Return to the dashboard"
+msgstr ""
+
+#: inc/merlin/class-gwangi-merlin.php:3337
+msgid "Disable this wizard"
+msgstr ""
+
+#: inc/merlin/class-gwangi-merlin.php:3338
+msgid "Skip"
+msgstr ""
+
+#: inc/merlin/class-gwangi-merlin.php:3339
+msgid "Next"
+msgstr ""
+
+#: inc/merlin/class-gwangi-merlin.php:3340
+msgid "Start"
+msgstr ""
+
+#: inc/merlin/class-gwangi-merlin.php:3341
+msgid "Cancel"
+msgstr ""
+
+#: inc/merlin/class-gwangi-merlin.php:3342, inc/merlin/class-gwangi-merlin.php:3343, inc/merlin/class-gwangi-merlin.php:3344
+msgid "Install"
+msgstr ""
+
+#: inc/merlin/class-gwangi-merlin.php:3345
+msgid "Import"
+msgstr ""
+
+#: inc/merlin/class-gwangi-merlin.php:3346
+msgid "Activate"
+msgstr ""
+
+#: inc/merlin/class-gwangi-merlin.php:3347
+msgid "Later"
+msgstr ""
+
+#. translators: Theme Name
+#: inc/merlin/class-gwangi-merlin.php:3349
+msgid "Activate %s"
+msgstr ""
+
+#. translators: Theme Name
+#: inc/merlin/class-gwangi-merlin.php:3351
+msgid "%s is Activated"
+msgstr ""
+
+#. translators: Theme Name
+#: inc/merlin/class-gwangi-merlin.php:3353
+msgid "Enter your license key to enable remote updates and theme support."
+msgstr ""
+
+#: inc/merlin/class-gwangi-merlin.php:3354
+msgid "License key"
+msgstr ""
+
+#: inc/merlin/class-gwangi-merlin.php:3355
+msgid "The theme is already registered, so you can go to the next step!"
+msgstr ""
+
+#: inc/merlin/class-gwangi-merlin.php:3356
+msgid "Your theme is activated! Remote updates and theme support are enabled."
+msgstr ""
+
+#: inc/merlin/class-gwangi-merlin.php:3357
+msgid "Need help?"
+msgstr ""
+
+#. translators: Theme Name
+#: inc/merlin/class-gwangi-merlin.php:3359
+msgid "Welcome to %s"
+msgstr ""
+
+#: inc/merlin/class-gwangi-merlin.php:3360
+msgid "Hi. Welcome back"
+msgstr ""
+
+#: inc/merlin/class-gwangi-merlin.php:3361
+msgid "This wizard will set up your theme, install plugins, and import content. It is optional & should take only a few minutes."
+msgstr ""
+
+#: inc/merlin/class-gwangi-merlin.php:3362
+msgid "You may have already run this theme setup wizard. If you would like to proceed anyway, click on the \"Start\" button below."
+msgstr ""
+
+#: inc/merlin/class-gwangi-merlin.php:3363
+msgid "Install Child Theme"
+msgstr ""
+
+#: inc/merlin/class-gwangi-merlin.php:3364
+msgid "You're good to go!"
+msgstr ""
+
+#: inc/merlin/class-gwangi-merlin.php:3365
+msgid "Let's build & activate a child theme so you may easily make theme changes."
+msgstr ""
+
+#: inc/merlin/class-gwangi-merlin.php:3366
+msgid "Your child theme has already been installed and is now activated, if it wasn't already."
+msgstr ""
+
+#: inc/merlin/class-gwangi-merlin.php:3367
+msgid "Learn about child themes"
+msgstr ""
+
+#: inc/merlin/class-gwangi-merlin.php:3368
+msgid "Awesome. Your child theme has already been installed and is now activated."
+msgstr ""
+
+#: inc/merlin/class-gwangi-merlin.php:3369
+msgid "Awesome. Your child theme has been created and is now activated."
+msgstr ""
+
+#: inc/merlin/class-gwangi-merlin.php:3370
+msgid "Select Your Demo"
+msgstr ""
+
+#: inc/merlin/class-gwangi-merlin.php:3371
+msgid "You can import some demo content to help you get started with the theme."
+msgstr ""
+
+#: inc/merlin/class-gwangi-merlin.php:3372
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/merlin/class-gwangi-merlin.php:3373
+msgid "You're up to speed!"
+msgstr ""
+
+#: inc/merlin/class-gwangi-merlin.php:3374
+msgid "Let's install some essential WordPress plugins to get your site up to speed."
+msgstr ""
+
+#: inc/merlin/class-gwangi-merlin.php:3375
+msgid "The required WordPress plugins are all installed and up to date. Press \"Next\" to continue the setup wizard."
+msgstr ""
+
+#: inc/merlin/class-gwangi-merlin.php:3376, inc/merlin/class-gwangi-merlin.php:3379
+msgid "Advanced"
+msgstr ""
+
+#: inc/merlin/class-gwangi-merlin.php:3377
+msgid "Import Content"
+msgstr ""
+
+#: inc/merlin/class-gwangi-merlin.php:3378
+msgid "Let's import content to your website, to help you get familiar with the theme."
+msgstr ""
+
+#: inc/merlin/class-gwangi-merlin.php:3380
+msgid "All done. Have fun!"
+msgstr ""
+
+#. translators: Theme Author
+#: inc/merlin/class-gwangi-merlin.php:3382
+msgid "Your theme has been all set up. Enjoy your new theme by %s."
+msgstr ""
+
+#: inc/merlin/class-gwangi-merlin.php:3383
+msgid "More links"
+msgstr ""
+
+#: inc/merlin/class-gwangi-merlin.php:3384
+msgid "View your website"
+msgstr ""
+
+#: inc/merlin/class-gwangi-merlin.php:3385
+msgid "Documentation"
+msgstr ""
+
+#: inc/merlin/class-gwangi-merlin.php:3386
+msgid "Theme Support"
+msgstr ""
+
+#: inc/merlin/class-gwangi-merlin.php:3387
+msgid "Start Customizing"
+msgstr ""
+
+#: inc/bp-profile-search/customizer/class-gwangi-bp-profile-search-grimlock-hero-customizer.php:83
+msgid "Form Color Scheme"
+msgstr ""
+
+#: inc/bp-profile-search/customizer/class-gwangi-bp-profile-search-grimlock-hero-customizer.php:87
+msgid "Light"
+msgstr ""
+
+#: inc/bp-profile-search/customizer/class-gwangi-bp-profile-search-grimlock-hero-customizer.php:88
+msgid "Dark"
+msgstr ""
+
+#: inc/bp-profile-search/customizer/class-gwangi-bp-profile-search-grimlock-hero-customizer.php:89
+msgid "None"
+msgstr ""
+
+#: inc/grimlock/customizer/class-gwangi-grimlock-custom-header-customizer.php:75, inc/grimlock-hero/customizer/class-gwangi-grimlock-hero-customizer.php:191
+msgid "Display Bottom Bevel"
+msgstr ""
+
+#: inc/grimlock-hero/customizer/class-gwangi-grimlock-hero-customizer.php:42
+msgid "Discover Gwangi"
+msgstr ""
+
+#: inc/grimlock-hero/customizer/class-gwangi-grimlock-hero-customizer.php:105
+msgid "Content Background Color"
+msgstr ""
+
+#: inc/grimlock-hero/customizer/class-gwangi-grimlock-hero-customizer.php:138
+msgid "Scroll To Content Button Text"
+msgstr ""
+
+#: inc/grimlock-hero/customizer/class-gwangi-grimlock-hero-customizer.php:169
+msgid "Display scroll to content button"
+msgstr ""
+
+#: inc/grimlock-hero/customizer/class-gwangi-grimlock-hero-customizer.php:275
+msgid "Find out more"
+msgstr ""

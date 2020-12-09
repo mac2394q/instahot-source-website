@@ -1,0 +1,121 @@
+
+/**
+ * Copy
+ * Text and typography components
+ */
+
+body {
+	//-webkit-font-smoothing: antialiased;
+}
+
+a {
+
+	@include transition($transition-base);
+
+	h1, h2, h3, h4, h5 ,h6,
+	h1 &, h2 &, h3 &, h4 &, h5 &, h6 & {
+		color: inherit;
+	}
+
+	&.full-link {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 2;
+	}
+
+	img {
+		transform: translate3d(0,0,0);
+		@include transition($transition-base);
+	}
+
+	&:hover {
+		img {
+			opacity: .85;
+		}
+	}
+
+}
+
+.lead {
+	-webkit-font-smoothing: antialiased;
+}
+
+hr {
+	opacity: 0.15;
+	border-top-width: $hr-border-width;
+
+	&[class*="border-"] {
+		opacity: 1;
+	}
+}
+
+blockquote:not(.card-blockquote),
+.blockquote {
+	@extend .blockquote;
+	position: relative;
+	margin: $blockquote-font-size * 1.5 0;
+	padding: $spacer * 2;
+	border-bottom: 2px solid $primary;
+	font-style: normal;
+	&:before {
+		@include fa-icon;
+		content: $fa-var-quote-left;
+		position: absolute;
+		top: -0.5em;
+    	left: $spacer;
+		display: inline-block;
+		font-size: 2rem;
+		color: $primary;
+		pointer-events: none;
+	}
+	p {
+		font-size: 1em;
+		color: inherit;
+		&:last-of-type {
+			margin-bottom: 0;
+		}
+	}
+	caption,
+	.blockquote-footer {
+		font-size: 80%;
+		color: inherit;
+		opacity: .65;
+	}
+}
+
+dfn, cite, em, i {
+    font-style: italic;
+}
+
+abbr, acronym {
+    border-bottom: 1px dotted $gray-700;
+    cursor: help;
+}
+
+pre {
+	color: inherit;
+}
+
+
+/* Horizontal description */
+.dl-horizontal {
+	margin-left: - ($grid-gutter-width / 2);
+	margin-right: 0;
+}
+
+/* Maps */
+.gmpInfoWindowtitle {
+	color: inherit !important;
+}
+
+
+.section {
+	&.no-results.not-found {
+		margin: 6% auto;
+		max-width: 550px;
+		text-align: center;
+	}
+}

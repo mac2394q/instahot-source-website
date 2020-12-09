@@ -1,0 +1,880 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GamiPress Transfers\n"
+"Report-Msgid-Bugs-To: https://gamipress.com/\n"
+"POT-Creation-Date: 2019-08-30 10:37+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: GamiPress (https://gamipress.com/)\n"
+"Language-Team: GamiPress <contact@gamipress.com>\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: libraries\n"
+
+#: gamipress-transfers.php:155
+#, php-format
+msgid "GamiPress - Transfers requires %s (%s or higher) in order to work. Please install and activate them."
+msgstr ""
+
+#: gamipress-transfers.php:253 includes/admin.php:25
+#: includes/custom-tables.php:33
+msgid "Transfer History"
+msgstr ""
+
+#: includes/admin.php:46
+msgid "GamiPress Transfers"
+msgstr ""
+
+#: includes/admin.php:49
+msgid "License"
+msgstr ""
+
+#: includes/admin.php:73 includes/admin/settings.php:54
+#: includes/custom-tables.php:27 includes/privacy/erasers/transfers.php:23
+#: includes/privacy/exporters/transfers.php:23
+#: includes/privacy/exporters/transfers.php:76 includes/triggers.php:22
+msgid "Transfers"
+msgstr ""
+
+#: includes/admin/settings.php:57
+msgid "Transfer History Page"
+msgstr ""
+
+#: includes/admin/settings.php:58
+msgid "Page to show a complete transfer history for the current user, including each transfer details. The [gamipress_transfer_history] shortcode should be on this page."
+msgstr ""
+
+#: includes/admin/settings.php:63
+msgid "Keep Transfers Pending"
+msgstr ""
+
+#: includes/admin/settings.php:64
+msgid "Check this option to keep all new transfer as pending. The intervention of an administrator will be necessary in order to mark them as complete."
+msgstr ""
+
+#: includes/ajax-functions.php:255 includes/ajax-functions.php:520
+#: includes/ajax-functions.php:584
+msgid "You are not allowed to perform this action."
+msgstr ""
+
+#: includes/ajax-functions.php:263
+msgid "Invalid transaction ID."
+msgstr ""
+
+#: includes/ajax-functions.php:292
+msgid "Invalid recipient."
+msgstr ""
+
+#: includes/ajax-functions.php:303
+msgid "Form not well configured."
+msgstr ""
+
+#: includes/ajax-functions.php:315
+msgid "Invalid points type."
+msgstr ""
+
+#: includes/ajax-functions.php:324
+msgid "Invalid amount."
+msgstr ""
+
+#: includes/ajax-functions.php:331
+#, php-format
+msgid "Insufficient %s to transfer."
+msgstr ""
+
+#: includes/ajax-functions.php:350
+msgid "Invalid achievement."
+msgstr ""
+
+#: includes/ajax-functions.php:358
+msgid "Invalid achievement type."
+msgstr ""
+
+#: includes/ajax-functions.php:377
+msgid "Invalid rank."
+msgstr ""
+
+#: includes/ajax-functions.php:385
+msgid "Invalid rank type."
+msgstr ""
+
+#: includes/ajax-functions.php:462
+msgid "Transfer Pending"
+msgstr ""
+
+#: includes/ajax-functions.php:463
+msgid "Transfer has been marked as pending and is waiting for approval."
+msgstr ""
+
+#: includes/ajax-functions.php:467
+msgid "Your transfer has been made successfully and is waiting for approval."
+msgstr ""
+
+#: includes/ajax-functions.php:476
+msgid "Transfer Complete"
+msgstr ""
+
+#: includes/ajax-functions.php:477
+msgid "Transfer has been completed successfully."
+msgstr ""
+
+#: includes/ajax-functions.php:481
+msgid "Your transfer has been completed successfully."
+msgstr ""
+
+#: includes/ajax-functions.php:486
+msgid "Redirecting to transfer details ..."
+msgstr ""
+
+#: includes/ajax-functions.php:531
+msgid "Wrong transfer ID."
+msgstr ""
+
+#: includes/ajax-functions.php:535
+msgid "Please, fill the title."
+msgstr ""
+
+#: includes/ajax-functions.php:539
+msgid "Please, fill the note."
+msgstr ""
+
+#: includes/ajax-functions.php:592
+msgid "Wrong transfer note ID."
+msgstr ""
+
+#: includes/ajax-functions.php:600
+msgid "Transfer note deleted successfully."
+msgstr ""
+
+#: includes/custom-tables.php:26 includes/custom-tables/transfers.php:95
+#: includes/shortcodes/gamipress_achievement_transfer.php:81
+#: includes/shortcodes/gamipress_achievement_transfer.php:136
+#: includes/shortcodes/gamipress_points_transfer.php:123
+#: includes/shortcodes/gamipress_points_transfer.php:177
+#: includes/shortcodes/gamipress_rank_transfer.php:81
+#: includes/shortcodes/gamipress_rank_transfer.php:136
+msgid "Transfer"
+msgstr ""
+
+#: includes/custom-tables.php:93
+msgid "Transfer Item"
+msgstr ""
+
+#: includes/custom-tables.php:94 includes/custom-tables/transfers.php:513
+#: includes/privacy/exporters/transfers.php:171
+#: templates/transfer-details.php:115
+msgid "Transfer Items"
+msgstr ""
+
+#: includes/custom-tables.php:136
+msgid "Transfer Note"
+msgstr ""
+
+#: includes/custom-tables.php:137 includes/custom-tables/transfers.php:572
+msgid "Transfer Notes"
+msgstr ""
+
+#: includes/custom-tables/transfers.php:96
+#: includes/custom-tables/transfers.php:454
+#: includes/privacy/exporters/transfers.php:148
+msgid "From"
+msgstr ""
+
+#: includes/custom-tables/transfers.php:97
+#: includes/custom-tables/transfers.php:464
+#: includes/privacy/exporters/transfers.php:164
+#: templates/transfer-details.php:44 templates/transfer-history.php:49
+msgid "To"
+msgstr ""
+
+#: includes/custom-tables/transfers.php:98 templates/transfer-details.php:45
+#: templates/transfer-history.php:50
+msgid "Date"
+msgstr ""
+
+#: includes/custom-tables/transfers.php:99 templates/transfer-details.php:46
+#: templates/transfer-history.php:51
+msgid "Status"
+msgstr ""
+
+#: includes/custom-tables/transfers.php:275 templates/transfer-history.php:52
+msgid "Actions"
+msgstr ""
+
+#: includes/custom-tables/transfers.php:296
+msgid "Refund transfer"
+msgstr ""
+
+#: includes/custom-tables/transfers.php:301
+msgid "Mark as complete"
+msgstr ""
+
+#: includes/custom-tables/transfers.php:355
+msgid "Are you sure you want to delete this item?\\n\\nClick \\'Cancel\\' to go back, \\'OK\\' to confirm the delete."
+msgstr ""
+
+#: includes/custom-tables/transfers.php:357
+msgid "Delete permanently"
+msgstr ""
+
+#: includes/custom-tables/transfers.php:358
+msgid "Delete Permanently"
+msgstr ""
+
+#: includes/custom-tables/transfers.php:365
+msgid "Save Changes"
+msgstr ""
+
+#: includes/custom-tables/transfers.php:443
+msgid "Transfer Data"
+msgstr ""
+
+#: includes/custom-tables/transfers.php:479
+#: templates/achievement-transfer-form.php:38
+#: templates/rank-transfer-form.php:41
+msgid "Transfer Details"
+msgstr ""
+
+#: includes/custom-tables/transfers.php:483
+#: includes/privacy/exporters/transfers.php:124
+msgid "Transfer Number"
+msgstr ""
+
+#: includes/custom-tables/transfers.php:487
+#: includes/privacy/exporters/transfers.php:131
+msgid "Transfer Date"
+msgstr ""
+
+#: includes/custom-tables/transfers.php:491
+#: includes/privacy/exporters/transfers.php:140
+msgid "Transfer Status"
+msgstr ""
+
+#: includes/custom-tables/transfers.php:496
+msgid "Transfer Key"
+msgstr ""
+
+#: includes/custom-tables/transfers.php:500
+msgid "IP"
+msgstr ""
+
+#: includes/custom-tables/transfers.php:519
+msgid "Add Item"
+msgstr ""
+
+#: includes/custom-tables/transfers.php:524 templates/transfer-details.php:136
+msgid "Description"
+msgstr ""
+
+#: includes/custom-tables/transfers.php:529 templates/transfer-details.php:137
+msgid "Quantity"
+msgstr ""
+
+#: includes/custom-tables/transfers.php:590
+#, php-format
+msgid "Transfer #%s"
+msgstr ""
+
+#: includes/custom-tables/transfers.php:591
+#, php-format
+msgid "Transfer ID: %s"
+msgstr ""
+
+#: includes/custom-tables/transfers.php:628
+#: includes/custom-tables/transfers.php:634
+#: includes/custom-tables/transfers.php:656
+#: includes/custom-tables/transfers.php:662
+msgid "Change"
+msgstr ""
+
+#: includes/custom-tables/transfers.php:629
+#: includes/custom-tables/transfers.php:657
+#: includes/custom-tables/transfers.php:717
+#: includes/custom-tables/transfers.php:870
+msgid "Cancel"
+msgstr ""
+
+#: includes/custom-tables/transfers.php:632
+#: includes/custom-tables/transfers.php:660
+msgid "View Profile"
+msgstr ""
+
+#: includes/custom-tables/transfers.php:683
+msgid "Points Types"
+msgstr ""
+
+#: includes/custom-tables/transfers.php:691
+msgid "Achievement Types"
+msgstr ""
+
+#: includes/custom-tables/transfers.php:699
+msgid "Rank Types"
+msgstr ""
+
+#: includes/custom-tables/transfers.php:716
+msgid "Save"
+msgstr ""
+
+#: includes/custom-tables/transfers.php:854
+#: includes/custom-tables/transfers.php:869
+msgid "Add Transfer Note"
+msgstr ""
+
+#: includes/custom-tables/transfers.php:860
+msgid "Title"
+msgstr ""
+
+#: includes/custom-tables/transfers.php:864
+msgid "Note"
+msgstr ""
+
+#: includes/custom-tables/transfers.php:897
+msgid "GamiPress Bot"
+msgstr ""
+
+#: includes/custom-tables/transfers.php:930
+msgid "Delete this transfer note"
+msgstr ""
+
+#: includes/custom-tables/transfers.php:930
+msgid "Delete"
+msgstr ""
+
+#: includes/privacy/erasers/transfers.php:107
+#, php-format
+msgid "Transfer #%d not modified, due to status: %s."
+msgstr ""
+
+#: includes/privacy/erasers/transfers.php:130
+#, php-format
+msgid "Transfer #%d with status %s successfully erased."
+msgstr ""
+
+#: includes/privacy/erasers/transfers.php:146
+#, php-format
+msgid "Transfer #%d with status %s successfully anonymized."
+msgstr ""
+
+#: includes/privacy/exporters/transfers.php:155
+msgid "IP Address"
+msgstr ""
+
+#: includes/requirements.php:74
+msgid "(0 for no minimum)"
+msgstr ""
+
+#: includes/scripts.php:50
+msgid "Please, choose someone to make the transfer"
+msgstr ""
+
+#: includes/scripts.php:51
+msgid "You don't have the required amount to make the transfer"
+msgstr ""
+
+#: includes/scripts.php:116
+#, php-format
+msgid "Not assigned to anything, %s"
+msgstr ""
+
+#: includes/scripts.php:117
+msgid "assign post"
+msgstr ""
+
+#: includes/scripts.php:120
+#, php-format
+msgid "Assigned to %s, %s or %s"
+msgstr ""
+
+#: includes/scripts.php:122
+msgid "change assignment"
+msgstr ""
+
+#: includes/scripts.php:123
+msgid "remove assignment"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievement_transfer.php:24
+msgid "Achievement Transfer"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievement_transfer.php:25
+msgid "Render an achievement transfer form."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievement_transfer.php:31
+#: includes/shortcodes/gamipress_points_transfer.php:35
+#: includes/shortcodes/gamipress_rank_transfer.php:31
+msgid "Form"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievement_transfer.php:40
+#: includes/shortcodes/gamipress_achievement_transfer.php:87
+#: includes/shortcodes/gamipress_points_transfer.php:48
+#: includes/shortcodes/gamipress_points_transfer.php:129
+#: includes/shortcodes/gamipress_rank_transfer.php:40
+#: includes/shortcodes/gamipress_rank_transfer.php:87
+msgid "Recipient"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievement_transfer.php:49
+#: includes/shortcodes/gamipress_achievement_transfer.php:56
+msgid "Achievement"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievement_transfer.php:57
+msgid "The achievement to transfer."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievement_transfer.php:62
+msgid "Select an achievement"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievement_transfer.php:68
+msgid "Allow Select Achievement"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievement_transfer.php:69
+msgid "Allow user to select a specific achievement to transfer. If achievement is set it will be used as initial achievement selected."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievement_transfer.php:78
+#: includes/shortcodes/gamipress_points_transfer.php:120
+#: includes/shortcodes/gamipress_rank_transfer.php:78
+msgid "Button Text"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievement_transfer.php:79
+#: includes/shortcodes/gamipress_points_transfer.php:121
+#: includes/shortcodes/gamipress_rank_transfer.php:79
+msgid "Transfer button text."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievement_transfer.php:88
+#: includes/shortcodes/gamipress_points_transfer.php:130
+#: includes/shortcodes/gamipress_rank_transfer.php:88
+msgid "User that will receive the transfer."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievement_transfer.php:95
+#: includes/shortcodes/gamipress_points_transfer.php:137
+#: includes/shortcodes/gamipress_rank_transfer.php:95
+msgid "Allow Select Recipient"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievement_transfer.php:96
+#: includes/shortcodes/gamipress_points_transfer.php:138
+#: includes/shortcodes/gamipress_rank_transfer.php:96
+msgid "Allow user to select a specific transfer recipient. If recipient is set it will be used as initial recipient selected."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievement_transfer.php:101
+#: includes/shortcodes/gamipress_points_transfer.php:143
+#: includes/shortcodes/gamipress_rank_transfer.php:101
+msgid "Enable Select Recipient Auto-complete"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievement_transfer.php:102
+#: includes/shortcodes/gamipress_points_transfer.php:144
+#: includes/shortcodes/gamipress_rank_transfer.php:102
+msgid "Enabling this functionality will add user suggestions to the recipient field."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievement_transfer.php:103
+#: includes/shortcodes/gamipress_points_transfer.php:145
+#: includes/shortcodes/gamipress_rank_transfer.php:103
+msgid "If this option is not enabled, user will be required to provide exactly the recipient user name or email."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievement_transfer.php:154
+#: includes/shortcodes/gamipress_points_transfer.php:195
+#: includes/shortcodes/gamipress_rank_transfer.php:154
+#, php-format
+msgid "You need to <a href=\"%s\">log in</a> to make a transfer."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievement_transfer.php:175
+msgid "Achievement not exists."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievement_transfer.php:193
+#: includes/shortcodes/gamipress_points_transfer.php:204
+#: includes/shortcodes/gamipress_rank_transfer.php:210
+msgid "Invalid recipient ID."
+msgstr ""
+
+#: includes/shortcodes/gamipress_points_transfer.php:20
+msgid "Default Points"
+msgstr ""
+
+#: includes/shortcodes/gamipress_points_transfer.php:28
+msgid "Points Transfer"
+msgstr ""
+
+#: includes/shortcodes/gamipress_points_transfer.php:29
+msgid "Render a points transfer form."
+msgstr ""
+
+#: includes/shortcodes/gamipress_points_transfer.php:59
+msgid "Points Type"
+msgstr ""
+
+#: includes/shortcodes/gamipress_points_transfer.php:60
+msgid "The points type to transfer."
+msgstr ""
+
+#: includes/shortcodes/gamipress_points_transfer.php:66
+msgid "Transfer Type"
+msgstr ""
+
+#: includes/shortcodes/gamipress_points_transfer.php:67
+msgid "The transfer type."
+msgstr ""
+
+#: includes/shortcodes/gamipress_points_transfer.php:70
+msgid "Fixed amount"
+msgstr ""
+
+#: includes/shortcodes/gamipress_points_transfer.php:71
+msgid "Allow user inputs the amount"
+msgstr ""
+
+#: includes/shortcodes/gamipress_points_transfer.php:72
+msgid "Set of predefined options"
+msgstr ""
+
+#: includes/shortcodes/gamipress_points_transfer.php:80
+msgid "Amount"
+msgstr ""
+
+#: includes/shortcodes/gamipress_points_transfer.php:81
+msgid "Amount user will transfer."
+msgstr ""
+
+#: includes/shortcodes/gamipress_points_transfer.php:89
+msgid "Options"
+msgstr ""
+
+#: includes/shortcodes/gamipress_points_transfer.php:90
+msgid "Options available to transfer."
+msgstr ""
+
+#: includes/shortcodes/gamipress_points_transfer.php:97
+msgid "Add Option"
+msgstr ""
+
+#: includes/shortcodes/gamipress_points_transfer.php:101
+msgid "Allow User Input"
+msgstr ""
+
+#: includes/shortcodes/gamipress_points_transfer.php:102
+msgid "Allow user input a custom amount to transfer."
+msgstr ""
+
+#: includes/shortcodes/gamipress_points_transfer.php:111
+msgid "Initial amount"
+msgstr ""
+
+#: includes/shortcodes/gamipress_points_transfer.php:112
+msgid "Set the initial amount."
+msgstr ""
+
+#: includes/shortcodes/gamipress_points_transfer.php:218
+msgid "The points type provided is not a registered points type."
+msgstr ""
+
+#: includes/shortcodes/gamipress_points_transfer.php:243
+msgid "There is no transfer options."
+msgstr ""
+
+#: includes/shortcodes/gamipress_rank_transfer.php:24
+msgid "Rank Transfer"
+msgstr ""
+
+#: includes/shortcodes/gamipress_rank_transfer.php:25
+msgid "Render a rank transfer form."
+msgstr ""
+
+#: includes/shortcodes/gamipress_rank_transfer.php:49
+#: includes/shortcodes/gamipress_rank_transfer.php:56
+msgid "Rank"
+msgstr ""
+
+#: includes/shortcodes/gamipress_rank_transfer.php:57
+msgid "The rank to transfer."
+msgstr ""
+
+#: includes/shortcodes/gamipress_rank_transfer.php:62
+msgid "Select a rank"
+msgstr ""
+
+#: includes/shortcodes/gamipress_rank_transfer.php:68
+msgid "Allow Select Rank"
+msgstr ""
+
+#: includes/shortcodes/gamipress_rank_transfer.php:69
+msgid "Allow user to select a specific rank to transfer. If rank is set it will be used as initial rank selected."
+msgstr ""
+
+#: includes/shortcodes/gamipress_rank_transfer.php:188
+msgid "Rank not exists."
+msgstr ""
+
+#: includes/shortcodes/gamipress_rank_transfer.php:192
+msgid "Rank is the lowest priority rank and they can't be transferred."
+msgstr ""
+
+#: includes/transfers.php:21
+msgid "Processing"
+msgstr ""
+
+#: includes/transfers.php:22
+msgid "Pending"
+msgstr ""
+
+#: includes/transfers.php:23
+msgid "Complete"
+msgstr ""
+
+#: includes/transfers.php:24
+msgid "Cancelled"
+msgstr ""
+
+#: includes/transfers.php:25
+msgid "Failed"
+msgstr ""
+
+#: includes/transfers.php:26
+msgid "Refunded"
+msgstr ""
+
+#: includes/transfers.php:220 includes/transfers.php:249
+#: includes/transfers.php:278
+#, php-format
+msgid "%s transferred"
+msgstr ""
+
+#: includes/transfers.php:221
+#, php-format
+msgid "%d %s has been transferred from %s account to %s account"
+msgstr ""
+
+#: includes/transfers.php:250 includes/transfers.php:279
+#, php-format
+msgid "%s %s has been transferred from %s account to %s account"
+msgstr ""
+
+#: includes/transfers.php:385 includes/transfers.php:414
+#: includes/transfers.php:443
+#, php-format
+msgid "%s refunded"
+msgstr ""
+
+#: includes/transfers.php:386
+#, php-format
+msgid "%d %s has been refunded to %s account from %s account"
+msgstr ""
+
+#: includes/transfers.php:415 includes/transfers.php:444
+#, php-format
+msgid "%s %s has been refunded to %s account from %s account"
+msgstr ""
+
+#: includes/transfers.php:492
+msgid "Transfer manually completed"
+msgstr ""
+
+#: includes/transfers.php:493
+#, php-format
+msgid "%s has marked as completed manually the transfer."
+msgstr ""
+
+#: includes/transfers.php:543
+msgid "Transfer manually refunded"
+msgstr ""
+
+#: includes/transfers.php:544
+#, php-format
+msgid "%s has refunded manually the transfer."
+msgstr ""
+
+#: includes/transfers.php:578
+msgid "Transfer marked as paid successfully."
+msgstr ""
+
+#: includes/transfers.php:579
+msgid "Transfer refunded successfully."
+msgstr ""
+
+#: includes/triggers.php:23
+msgid "Make a new transfer"
+msgstr ""
+
+#: includes/triggers.php:24
+msgid "Transfer a minimum amount of points"
+msgstr ""
+
+#: includes/triggers.php:25
+msgid "Transfer an achievement"
+msgstr ""
+
+#: includes/triggers.php:26
+msgid "Transfer a specific achievement"
+msgstr ""
+
+#: includes/triggers.php:27
+msgid "Transfer a rank"
+msgstr ""
+
+#: includes/triggers.php:28
+msgid "Transfer a specific rank"
+msgstr ""
+
+#: includes/triggers.php:85
+#, php-format
+msgid "Transfer a minimum of %d %s"
+msgstr ""
+
+#: includes/triggers.php:87
+#, php-format
+msgid "Transfer any amount of %s"
+msgstr ""
+
+#: includes/triggers.php:102 includes/triggers.php:135
+#, php-format
+msgid "Transfer any %s"
+msgstr ""
+
+#: includes/triggers.php:121 includes/triggers.php:154
+#, php-format
+msgid "Transfer the %s %s"
+msgstr ""
+
+#: includes/widgets/achievement-transfer-widget.php:23
+msgid "GamiPress: Achievement Transfer"
+msgstr ""
+
+#: includes/widgets/achievement-transfer-widget.php:24
+msgid "Display an achievement transfer form."
+msgstr ""
+
+#: includes/widgets/points-transfer-widget.php:23
+msgid "GamiPress: Points Transfer"
+msgstr ""
+
+#: includes/widgets/points-transfer-widget.php:24
+msgid "Display a points transfer form."
+msgstr ""
+
+#: includes/widgets/rank-transfer-widget.php:23
+msgid "GamiPress: Rank Transfer"
+msgstr ""
+
+#: includes/widgets/rank-transfer-widget.php:24
+msgid "Display a rank transfer form."
+msgstr ""
+
+#: templates/achievement-transfer-form.php:59
+#: templates/rank-transfer-form.php:62
+msgid "You already has transferred this and your transfer is pending."
+msgstr ""
+
+#: templates/achievement-transfer-form.php:64
+#: templates/rank-transfer-form.php:67
+#, php-format
+msgid "You can check the transfer details %s."
+msgstr ""
+
+#: templates/achievement-transfer-form.php:65
+#: templates/rank-transfer-form.php:68
+msgid "here"
+msgstr ""
+
+#: templates/achievement-transfer-form.php:81
+msgid "Achievement to transfer:"
+msgstr ""
+
+#: templates/achievement-transfer-form.php:88
+msgid "Enter the achievement name"
+msgstr ""
+
+#: templates/points-transfer-form.php:51
+msgid "Transfer details"
+msgstr ""
+
+#: templates/points-transfer-form.php:54
+#, php-format
+msgid "You will transfer %d %s"
+msgstr ""
+
+#: templates/points-transfer-form.php:66
+msgid "Enter the amount you want to transfer"
+msgstr ""
+
+#: templates/points-transfer-form.php:70
+msgid "Amount:"
+msgstr ""
+
+#: templates/points-transfer-form.php:88
+msgid "Choose the amount you want to transfer"
+msgstr ""
+
+#: templates/points-transfer-form.php:113
+msgid "Other"
+msgstr ""
+
+#: templates/points-transfer-form.php:125
+msgid "Enter amount:"
+msgstr ""
+
+#: templates/points-transfer-form.php:147
+msgid "Amount to transfer:"
+msgstr ""
+
+#: templates/points-transfer-form.php:152
+msgid "Current balance:"
+msgstr ""
+
+#: templates/points-transfer-form.php:157
+msgid "New balance after transfer:"
+msgstr ""
+
+#: templates/rank-transfer-form.php:84
+msgid "Rank to transfer:"
+msgstr ""
+
+#: templates/rank-transfer-form.php:91
+msgid "Enter the rank name"
+msgstr ""
+
+#: templates/recipient-form.php:33
+msgid "To:"
+msgstr ""
+
+#: templates/recipient-form.php:41
+msgid "Enter username or email"
+msgstr ""
+
+#: templates/transfer-details.php:43 templates/transfer-history.php:48
+msgid "Number"
+msgstr ""
+
+#: templates/transfer-details.php:226
+msgid "This transfer have not items"
+msgstr ""
+
+#: templates/transfer-history.php:117
+msgid "View Transfer Details"
+msgstr ""
+
+#: templates/transfer-history.php:176
+msgid "You have not made any transfers"
+msgstr ""

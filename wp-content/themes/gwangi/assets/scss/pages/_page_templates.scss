@@ -1,0 +1,53 @@
+
+/**
+ * Page templates
+ *
+ * Pages styles.
+ */
+
+$post-selector: '[id^="post-"]';
+
+/* Custom header display */
+.page {
+    &.grimlock--custom_header-displayed {
+        .site-main {
+            > #{$post-selector} {
+                > .entry-header {
+                    .entry-title {
+                        display: none;
+                    }
+                }
+            }
+        }
+        &.grimlock-wordpress-seo--breadcrumb_custom_header_displayed {
+            .site-main > #{$post-selector} > .entry-header {
+                display: none;
+            }
+        }
+    }
+}
+
+// Page templates
+.page-template-template-minimal .site-content article.page > .entry-header,
+.minimal-title,
+#main > article > .entry-header {
+    text-align: center;
+    margin-bottom: 4%;
+    .entry-title,
+    .page-title {
+        &:after {
+            content: '';
+            display: block;
+            margin: 15px auto;
+            width: 65px;
+            height: 4px;
+            background-color: $headings-color;
+        }
+    }
+}
+
+.entry-header {
+    .entry-title {
+        display: block;
+    }
+}

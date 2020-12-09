@@ -1,0 +1,8 @@
+
+/**
+ * Borders
+ *
+ * Border utilities.
+ */
+
+.rounded-full { @include border-radius( 500px !important ); }

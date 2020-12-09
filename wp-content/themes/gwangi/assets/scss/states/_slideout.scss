@@ -1,0 +1,222 @@
+
+/**
+ * Slideout
+ *
+ * Compatibility style from the slideout JS library
+ */
+
+.slideout-open {
+	&,
+	& body,
+	& .site {
+        overflow: hidden;
+	}
+	.site-wrapper {
+		height: 100%;
+	}
+}
+
+.slideout-wrapper {
+
+	display: block !important;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	z-index: $zindex-fixed + 2;
+	width: $slideout-width;
+	padding: 0;
+	overflow-y: auto;
+	overflow-x: hidden;
+	-webkit-overflow-scrolling: touch;
+	transition: transform .2s ease-in-out, opacity .1s ease;
+	will-change: transform, opacity;
+	opacity: 0;
+
+	// Left positioning
+	.grimlock--navigation-fixed-left &,
+	.grimlock--navigation-hamburger-left & {
+		left: 0;
+		right: auto;
+		transform: translate3d(-$slideout-width,0,0) !important;
+		opacity: 1;
+		> .grimlock-vertical-navigation {
+			position: static !important;
+		}
+	}
+
+	// Right positioning
+	.grimlock--navigation-fixed-right &,
+	.grimlock--navigation-hamburger-right & {
+		left: auto;
+		right: 0;
+		transform: translate3d($slideout-width,0,0) !important;
+		opacity: 1;
+		> .grimlock-vertical-navigation {
+			position: static !important;
+		}
+	}
+
+	// Navigation fixed only
+	.grimlock--navigation-fixed-left &,
+	.grimlock--navigation-fixed-right & {
+		z-index: $zindex-fixed + 2;
+		overflow: hidden;
+		@include media-breakpoint-up(lg) {
+			transform: translate3d(0,0,0) !important;
+		}
+	}
+
+	.grimlock--navigation-fixed-left.grimlock--boxed & {
+		@include media-breakpoint-up(lg) {
+			left: 0;
+			right: auto;
+			transform: translate3d(0,0,0) !important;
+			opacity: 1;
+		}
+		@media screen and (min-width: $site-boxed-max-width) {
+			transform: translate3d(-$site-boxed-max-width / 2,0,0) !important;
+			left: 50%;
+			opacity: 1;
+		}
+	}
+
+	.grimlock--navigation-fixed-right.grimlock--boxed & {
+		@media screen and (min-width: $site-boxed-max-width) {
+			transform: translate3d($site-boxed-max-width / 2,0,0) !important;
+			left: auto;
+			right: 50%;
+			opacity: 1;
+		}
+	}
+
+	.slideout-open & {
+		transform: translate3d(0,0,0) !important;
+		opacity: 1;
+		pointer-events: auto !important;
+	}
+
+	// Scrollbar
+	&::-webkit-scrollbar {
+		width: 8px;
+	}
+
+	&::-webkit-scrollbar-track {
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	}
+
+	&::-webkit-scrollbar-thumb {
+		background-color: rgba(0,0,0,0.2);
+		outline: 0;
+	}
+
+	// If admin
+	.admin-bar & {
+		padding-top: $wp-admin-bar-height;
+	}
+
+}
+
+
+// Slideout panel -> .site
+.grimlock--navigation-fixed-left,
+.grimlock--navigation-fixed-right {
+	.site {
+		transform: none !important;
+		box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+	}
+}
+.grimlock--navigation-fixed-left {
+	.site {
+		@include media-breakpoint-up(lg) {
+			margin-left: $slideout-width;
+		}
+	}
+}
+
+.grimlock--navigation-fixed-right{
+	.site {
+		@include media-breakpoint-up(lg) {
+			margin-right: $slideout-width;
+		}
+	}
+}
+
+.grimlock--navigation-hamburger-right,
+.grimlock--navigation-hamburger-left {
+	.site {
+		transition: transform .2s ease-in-out;
+		transform: none !important;
+	}
+}
+
+.grimlock--navigation-hamburger-right {
+	body:not(.grimlock--boxed) & {
+		.parallax-mirror,
+		.site {
+			.slideout-open & {
+				transform: translateX(-$slideout-width) !important;
+			}
+		}
+	}
+}
+
+.grimlock--navigation-hamburger-left {
+	body:not(.grimlock--boxed) & {
+		.parallax-mirror,
+		.site {
+			.slideout-open & {
+				transform: translateX($slideout-width) !important;
+			}
+		}
+	}
+}
+
+
+.slideout-backdrop {
+
+	display: block;
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.5);
+	pointer-events: none;
+	transition: opacity .2s ease-in-out;
+	z-index: $zindex-fixed + 1;
+	will-change: opacity;
+	transform: translate3d(0,0,0);
+
+	// Display only if Global boxed or if Navbar is fixed
+	.slideout-open & {
+		opacity: 1;
+		pointer-events: auto;
+	}
+
+	// Close icon
+	&:after {
+		content: '×';
+		position: fixed;
+		top: 1rem;
+		left: $slideout-width + 10;
+		z-index: $zindex-fixed + 2;
+		font-weight: 300;
+		font-size: 2rem;
+		color: #fff;
+		opacity: 0.7;
+		cursor: pointer;
+		&:hover {
+			opacity: 1;
+		}
+	}
+
+	.grimlock--navigation-fixed-right &,
+	.grimlock--navigation-hamburger-right & {
+		&:after {
+			left: auto;
+			right: $slideout-width + 10;
+		}
+	}
+
+}

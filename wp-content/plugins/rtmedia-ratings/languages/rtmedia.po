@@ -1,0 +1,204 @@
+# Copyright (C) 2018 rtCamp
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: rtMedia 5 Star Ratings 1.2.5\n"
+"Report-Msgid-Bugs-To: http://community.rtcamp.com/c/rtmedia/\n"
+"POT-Creation-Date: 2018-03-14 10:26:26+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: rtMedia <rtmedia@rtcamp.com>\n"
+"Language-Team: rtMedia <rtmedia@rtcamp.com>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+
+#: app/admin/RTMediaRatingsAdmin.php:53
+msgid "MEDIA LIKES"
+msgstr ""
+
+#: app/admin/RTMediaRatingsAdmin.php:55
+msgid "rating for media"
+msgstr ""
+
+#: app/admin/RTMediaRatingsAdmin.php:72
+msgid "Enable likes for media"
+msgstr ""
+
+#: app/admin/RTMediaRatingsAdmin.php:77
+msgid "You may want to disable like feature if you had enabled rating feature."
+msgstr ""
+
+#: app/admin/RTMediaRatingsAdmin.php:85
+msgid "Enable 5 star rating for media"
+msgstr ""
+
+#: app/admin/RTMediaRatingsAdmin.php:90
+msgid "Allow user to rate media."
+msgstr ""
+
+#: app/admin/RTMediaRatingsAdmin.php:95
+msgid "Enable 5 star rating for albums"
+msgstr ""
+
+#: app/admin/RTMediaRatingsAdmin.php:100
+msgid "Allow user to rate albums."
+msgstr ""
+
+#: app/main/controllers/media/RTMediaAlbumRatings.php:139
+#: app/main/controllers/media/RTMediaAlbumRatings.php:140
+#: app/main/controllers/media/RTMediaRatingsInteraction.php:74
+#: app/main/controllers/media/RTMediaRatingsInteraction.php:75
+msgid "NA"
+msgstr ""
+
+#: app/main/controllers/template/rtm-media-rating-functions.php:19
+msgid "Total Rating"
+msgstr ""
+
+#: app/main/controllers/template/rtm-media-rating-functions.php:20
+msgid "Your Rating"
+msgstr ""
+
+#: app/main/controllers/template/rtm-media-rating-functions.php:49
+msgid "Remove your rating"
+msgstr ""
+
+#: index.php:186
+msgid "Settings"
+msgstr ""
+
+#: index.php:192
+msgid "Docs"
+msgstr ""
+
+#: lib/plugin-installer/RTMPluginInstaller.php:34
+#: lib/plugin-installer/RTMPluginInstaller.php:40
+msgid "rtMedia for WordPress, BuddyPress and bbPress"
+msgstr ""
+
+#: lib/plugin-installer/RTMPluginInstaller.php:54
+msgid "rtMedia Add-on(s)"
+msgstr ""
+
+#: lib/plugin-installer/RTMPluginInstaller.php:54
+msgid "won't work if rtMedia is"
+msgstr ""
+
+#: lib/plugin-installer/RTMPluginInstaller.php:58
+msgid "not installed. Click"
+msgstr ""
+
+#: lib/plugin-installer/RTMPluginInstaller.php:59
+#: lib/plugin-installer/RTMPluginInstaller.php:67
+#: lib/plugin-installer/RTMPluginInstaller.php:75
+msgid "here"
+msgstr ""
+
+#: lib/plugin-installer/RTMPluginInstaller.php:60
+msgid "to install rtMedia."
+msgstr ""
+
+#: lib/plugin-installer/RTMPluginInstaller.php:66
+#: lib/plugin-installer/RTMPluginInstaller.php:74
+msgid "not activated. Click"
+msgstr ""
+
+#: lib/plugin-installer/RTMPluginInstaller.php:68
+#: lib/plugin-installer/RTMPluginInstaller.php:76
+msgid "to activate rtMedia."
+msgstr ""
+
+#: lib/plugin-installer/RTMPluginInstaller.php:90
+#: lib/plugin-installer/RTMPluginInstaller.php:107
+msgid "ERROR: No slug was passed to the AJAX callback."
+msgstr ""
+
+#: lib/plugin-installer/RTMPluginInstaller.php:96
+msgid "ERROR: You lack permissions to install and/or activate plugins."
+msgstr ""
+
+#: lib/plugin-installer/RTMPluginInstaller.php:113
+msgid "ERROR: You lack permissions to activate plugins."
+msgstr ""
+
+#: lib/plugin-installer/RTMPluginInstaller.php:128
+#: lib/plugin-installer/RTMPluginInstaller.php:161
+msgid "ERROR: Error fetching plugin information: %s"
+msgstr ""
+
+#: lib/plugin-installer/RTMPluginInstaller.php:139
+msgid "Please ensure the file system is writable"
+msgstr ""
+
+#: lib/plugin-installer/RTMPluginInstaller.php:145
+msgid "ERROR: Failed to install plugin: %s"
+msgstr ""
+
+#: lib/plugin-installer/RTMPluginInstaller.php:151
+#: lib/plugin-installer/RTMPluginInstaller.php:184
+#: lib/plugin-installer/RTMPluginInstaller.php:192
+msgid "ERROR: Failed to activate plugin: %s"
+msgstr ""
+
+#: lib/plugin-installer/RTMPluginInstaller.php:172
+msgid "Please ensure the file system is writeable"
+msgstr ""
+
+#: lib/plugin-installer/RTMPluginInstaller.php:178
+msgid "ERROR: Failed to update plugin: %s"
+msgstr ""
+
+#: lib/rt-edd-license/RTEDDSLPluginUpdater.php:177
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" "
+"class=\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+
+#: lib/rt-edd-license/RTEDDSLPluginUpdater.php:179
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" "
+"class=\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a "
+"href=\"%4$s\">update now</a>."
+msgstr ""
+
+#: lib/rt-edd-license/RTEDDSLPluginUpdater.php:296
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: lib/rt-edd-license/RTEDDSLPluginUpdater.php:296
+msgid "Error"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "rtMedia 5 Star Ratings"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://rtmedia.io/products/rtmedia-star-ratings/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "This plugin allows user to rate media."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "rtCamp"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid ""
+"http://rtcamp.com/?utm_source=dashboard&utm_medium=plugin&utm_campaign="
+"rtmedia-ratings"
+msgstr ""

@@ -1,0 +1,746 @@
+
+/**
+ * Grimlock
+ *
+ * Grimlock components styles.
+ * https://themosaurus.com
+ */
+
+body {
+	&.grimlock--bordered {
+		@include media-breakpoint-up(lg) {
+			padding: 15px !important;
+		}
+	}
+}
+
+// Custom header
+#custom_header {
+
+	overflow: hidden;
+	z-index: 9;
+	background-color: $custom-header-bg;
+
+	.grimlock--custom_header-bevel-displayed.grimlock--custom_header-displayed &:not([data-parallax]) {
+		@supports (clip-path: $clip-path-custom-header) {
+			@include section-clip-path($clip-path-custom-header);
+			@include media-breakpoint-up(md) {
+				margin-bottom: calc(0% - 4vw - 15px);
+			}
+		}
+	}
+
+	&[data-parallax] {
+		background: none;
+	}
+
+	@include media-breakpoint-down(md) {
+		> .region__inner {
+			padding-top: 40px !important;
+			padding-bottom: 40px !important;
+		}
+	}
+
+	.region__container {
+		position: relative;
+		z-index: 3;
+		@extend .element-animated, .fade-in;
+		@include media-breakpoint-up(lg) {
+			padding-left: $grid-gutter-width;
+			padding-right: $grid-gutter-width;
+		}
+	}
+
+	.section__header {
+		word-wrap: break-word;
+		color: #fff;
+		@include media-breakpoint-down(sm) {
+			text-align: center;
+		}
+	}
+
+	.section__title {
+		margin-top: .5rem;
+		margin-bottom: .5rem;
+	}
+
+	.section__subtitle {
+		margin-bottom: 0;
+		> p {
+			font-size: .9em;
+		}
+	}
+
+	.gwangi-custom-header-pattern & {
+		&:after {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			display: block;
+			width: 100%;
+			height: 100%;
+			z-index: 1;
+			opacity: 0.1;
+			background-image: url("assets/images/pattern.svg");
+			pointer-events: none;
+		}
+	}
+
+	.region__col--2 {
+		@extend .element-animated, .fade-in;
+	}
+
+	&.region--6-6-cols-left-modern,
+	&.region--6-6-cols-left-reverse-modern {
+		> .region__inner {
+			position: relative;
+			z-index: 2;
+		}
+		&[style*="background-image:"] {
+			&:before {
+				content: '';
+				position: relative;
+				z-index: 3;
+				display: block;
+				width: 100%;
+				height: 33vh;
+				background-image: inherit;
+				background-size: cover;
+				background-position: center center;
+				@include media-breakpoint-up(lg) {
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: 48%;
+					height: 100%;
+				}
+			}
+		}
+		&:after {
+			content: '';
+			position: absolute;
+			top: 0;
+			right: 0;
+			left: 0;
+			bottom: 0;
+			z-index: 0;
+			display: block;
+			background-color: $body-bg;
+		}
+	}
+
+	&.region--6-6-cols-left-reverse-modern {
+		&[style*="background-image:"] {
+			&:before {
+				left: auto;
+				right: 0;
+			}
+		}
+	}
+
+}
+
+@supports (clip-path: $clip-path-custom-header) {
+	.grimlock--custom_header-bevel-displayed.grimlock--custom_header-displayed {
+		.grimlock-header + .site-content > .region__container,
+		.grimlock-header + .before_content > .widget-area,
+		.site-main .widget-area > .widget:first-of-type > .grimlock-section > .region__inner > .region__container {
+			@include media-breakpoint-up(md) {
+				padding-top: calc(2vw + 15px);
+			}
+		}
+	}
+}
+
+
+// Grimlock section
+.widget_grimlock_section {
+	margin-bottom: 0;
+
+	.widget-title {
+		font-size: inherit;
+	}
+}
+
+
+// Grimlock query
+.grimlock-query-section--posts {
+	margin-bottom: 0;
+
+	.widget-title {
+		font-size: inherit;
+	}
+
+	// If grid style
+	&.section--posts-grid {
+
+		.section__title,
+		.section__subtitle,
+		.section__footer {
+			text-align: center;
+		}
+
+		[id^="post-"] {
+			padding: 0 !important;
+			margin: 0 !important;
+		}
+		.grimlock-query-section__posts {
+			margin: 0;
+		}
+		.card {
+			text-align: center;
+			border: 0;
+			border-radius: 0;
+			background: $gray-800;
+			color: #fff;
+			min-height: 300px;
+			box-shadow: none !important;
+
+			&:hover {
+				transform: none;
+				.card-body {
+					transform: translate3d(0,-10px,0);
+				}
+				.post-thumbnail {
+					opacity: .25;
+				}
+			}
+
+			a,
+			a:hover,
+			a:focus,
+			a:active,
+			.entry-title,
+			.entry-title a {
+				color: #fff !important;
+			}
+
+			.wp-post-image,
+			.post-thumbnail {
+				border-radius: 0;
+			}
+			.post-thumbnail {
+				opacity: .4;
+				height: 100%;
+				img {
+					border-radius: 0;
+					height: 100%;
+					object-fit: cover;
+					object-position: center;
+				}
+			}
+			.card-body {
+				z-index: 1;
+				position: absolute;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				background: none;
+				transform: none !important;
+				@include media-breakpoint-up(lg) {
+					padding: 4rem;
+				}
+				@include transition($transition-base);
+
+				&:before,
+				&:after {
+					content: none;
+				}
+
+			}
+			.entry-header {
+				margin: 0;
+				max-width: 340px;
+			}
+			.entry-title {
+				color: #fff;
+				> a {
+					&,
+					&:hover,
+					&:focus,
+					&:active {
+						color: #fff !important;
+					}
+					&:after {
+						content: '';
+						display: block;
+						position: absolute;
+						top: 0;
+						left: 0;
+						width: 100%;
+						height: 100%;
+						z-index: 9;
+					}
+				}
+			}
+			.entry-summary {
+				max-width: 340px;
+				display: none;
+				@include media-breakpoint-up(md) {
+					display: block;
+				}
+				p {
+					margin-bottom: 0;
+				}
+			}
+			.entry-meta,
+			.author,
+			.entry-footer,
+			p:empty,
+			.more-link {
+				display: none;
+			}
+		}
+
+		.section__btn {
+			border-radius: 0;
+			width: 100%;
+			margin: 0 !important;
+			border-radius: 0 !important;
+		}
+
+		.posts--12-cols-classic {
+			.entry-header,
+			.entry-summary {
+				max-width: 540px;
+			}
+		}
+	}
+}
+
+
+// Grimlock nav menu
+.grimlock-nav-menu-section {
+
+	.menu {
+		@extend .row;
+		padding-left: 0;
+		list-style: none;
+		.menu-item {
+			padding-top: 1rem;
+			padding-bottom: 1rem;
+			margin-top: 1rem;
+			margin-bottom: 1rem;
+			transition: all .2s ease-in-out;
+			word-break: break-word;
+
+			@include media-breakpoint-down(md) {
+				@include make-col(6);
+			}
+
+			@include media-breakpoint-down(sm) {
+				@include make-col(12);
+			}
+
+			&:not([class*="col-"]) {
+				@extend .col-sm-6;
+				@extend .col-md-4;
+				@extend .col-lg;
+				@include media-breakpoint-up(lg) {
+					max-width: 25%;
+				}
+			}
+
+			> a {
+				display: block;
+				&,
+				&:hover,
+				&:focus,
+				&:active {
+					color: inherit;
+				}
+				&[class*="image"] {
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					> img {
+						display: flex;
+						align-self: center;
+						max-width: 100%;
+						height: 100%;
+						padding: 0;
+					}
+				}
+			}
+			img {
+				margin-bottom: 1rem;
+			}
+			.icon-wrapper {
+				position: relative;
+				display: inline-block;
+				&:before,
+				&:after {
+					content: '';
+					display: block;
+					width: 3em;
+					height: 3em;
+					font-size: 2em;
+					background-color: $gray-600;
+					position: absolute;
+					top: 0;
+					left: 50%;
+					transform: translate3d(-70px,0,0);
+					transform-origin: center center;
+					border-radius: 500px;
+					@include transition($transition-base);
+					opacity: 0.4;
+					pointer-events: none;
+				}
+				&:after {
+					transform: translate3d(70px,0,0);
+					left: auto;
+					right: 50%;
+				}
+			}
+			&:hover {
+				.icon-wrapper {
+					&:before {
+						transform: translate3d(-80px,0,0);
+					}
+					&:after {
+						transform: translate3d(80px,0,0);
+					}
+				}
+			}
+			i {
+				font-size: 2em;
+				color: #fff;
+				border-radius: 500px;
+				display: inline-block;
+				margin-bottom: 1.5rem;
+				width: 3em;
+				height: 3em;
+				line-height: 3em;
+				background-color: $black-faded;
+				will-change: transform;
+				text-align: center;
+				transform: translate3d(0,0,0);
+				position: relative;
+				z-index: 1;
+				@include transition($transition-base);
+			}
+			h1, h2, h3, h4, h5, h6 {
+				margin-bottom: .5rem;
+			}
+			&.primary {
+				i {
+					background-color: $primary;
+				}
+			}
+			&.info {
+				i {
+					background-color: $info;
+				}
+			}
+			&.success {
+				i {
+					background-color: $success;
+				}
+			}
+			&.warning {
+				i {
+					background-color: $warning;
+				}
+				.icon-wrapper {
+					&:before,
+					&:after {
+						background-color: $warning !important;
+					}
+				}
+			}
+			&.danger {
+				i {
+					background-color: $danger;
+				}
+			}
+			&.dark {
+				i {
+					background-color: $body-color;
+				}
+			}
+			&:hover {
+				i {
+					transform: scale(1.05);
+				}
+			}
+		}
+	}
+
+	.menu-item-description {
+		margin-top: .5rem;
+		padding: 0 1rem 1rem 1rem;
+		opacity: .7;
+	}
+
+	.section__thumbnail {
+		margin-bottom: 2rem;
+	}
+
+	&.region--container-narrow,
+	&.region--container-narrower,
+	&.region--6-6-cols-left,
+	&.region--6-6-cols-left-reverse {
+		.menu .menu-item:not([class*="col-"]) {
+			@extend .col-md-6;
+			@extend .col-lg-4;
+		}
+		.menu-item {
+			margin-bottom: 0;
+		}
+	}
+
+	&.region--12-cols-center {
+		.menu {
+			text-align: center;
+		}
+	}
+	&.region--12-cols-right {
+		.menu {
+			text-align: right;
+		}
+	}
+
+	&.region--6-6-cols-left,
+	&.region--6-6-cols-left-reverse {
+		.menu {
+			.menu-item {
+				i {
+					font-size: 1.8em;
+					width: 2.4em;
+					height: 2.4em;
+					line-height: 2.4em;
+				}
+				.icon-wrapper {
+					&:before,
+					&:after {
+						content: none;
+					}
+				}
+			}
+		}
+	}
+
+	&:not(.region--8-4-cols-grid) {
+		.menu-item {
+			> a {
+				display: block;
+				position: relative;
+				height: 100%;
+				&:before {
+					content: '';
+					display: block;
+					width: 100%;
+					height: calc(100% - 35px);
+					position: absolute;
+					top: 50px;
+					left: 0;
+					background: #fff;
+				}
+			}
+		}
+	}
+
+	&.region--8-4-cols-grid {
+
+		.section__subtitle {
+			margin-top: 1% !important;
+			padding-bottom: 0 !important;
+		}
+
+		.section__content {
+			margin-top: 1% !important;
+		}
+
+		.menu {
+			.menu-item {
+
+				padding-top: 0;
+				padding-bottom: 0;
+
+				&:not([class*="col-"]) {
+					@extend .col-sm-4;
+					&:nth-child(1),
+					&:nth-child(7) {
+						@extend .col-sm-8;
+					}
+				}
+
+				> a {
+					display: block;
+					position: relative;
+					background-color: rgba(0,0,0,0.6);
+					overflow: hidden;
+					user-select: none;
+
+					&:not([class*="image"]) {
+						display: flex;
+						justify-content: center;
+						align-items: flex-end;
+						color: #fff;
+						padding-bottom: 10px;
+						color: #fff;
+						font-weight: bolder;
+						padding: 10px 5px;
+						text-transform: uppercase;
+						letter-spacing: 3px;
+						font-size: 0.8em;
+					}
+
+					@supports (object-fit: cover) {
+						height: 100%;
+						min-height: 270px;
+					}
+				}
+
+				.menu-image-hover-wrapper {
+					padding: 0;
+					position: relative;
+					display: block;
+					height: 100%;
+				}
+
+				.menu-image-title {
+					position: absolute;
+					bottom: 0;
+					left: 0;
+					z-index: 2;
+					background-image: linear-gradient(to bottom, rgba(0,0,0,0) 40%, rgba(0,0,0,0.7) 100%);
+					width: 100%;
+					display: flex;
+					height: 100%;
+					align-items: flex-end;
+					justify-content: center;
+					color: #fff;
+					font-weight: $font-weight-bold;
+					padding: 10px 5px;
+					text-transform: uppercase;
+					letter-spacing: 3px;
+					font-size: 0.8em;
+					text-align: center;
+					white-space: normal;
+					word-break: break-word;
+					@include transition($transition-base);
+				}
+
+				img {
+					margin: 0;
+					padding: 0;
+					width: 100%;
+					position: absolute;
+					top: 0;
+					left: 0;
+					z-index: 1;
+					@supports (object-fit: cover) {
+						object-fit: cover;
+						object-position: center center;
+						height: 100%;
+					}
+					&.hovered-image {
+						margin: 0 !important;
+						z-index: 0;
+					}
+				}
+
+				.menu-item-description {
+					position: absolute;
+					bottom: 0;
+					left: 0;
+					z-index: 2;
+					width: 100%;
+					height: 100%;
+					margin: 0;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					padding-left: 1rem;
+					padding-right: 1rem;
+					text-align: center;
+					color: #fff;
+					opacity: 0;
+					font-weight: bolder;
+					text-transform: none;
+					letter-spacing: 0;
+					font-size: 1.2em;
+					transform: translate3d(0,-15px,0);
+					@include transition($transition-base);
+
+					@include media-breakpoint-down(md) {
+						display: none;
+					}
+				}
+
+				&:hover {
+					.menu-image-title {
+						background-color: rgba(0,0,0,0.6);
+						padding-bottom: 30px;
+					}
+					.menu-item-description {
+						opacity: 1;
+						transform: translate3d(0,0,0);
+					}
+				}
+
+			}
+		}
+	}
+
+}
+
+.region__col[data-grimlock-animate-parallax] {
+	@include media-breakpoint-down(sm) {
+		transform: translate3d(0,0,0) !important;
+	}
+}
+
+.parallax-mirror {
+	will-change: top, scroll-position, transform;
+	.parallax-slider {
+		will-change: top, scroll-position, transform;
+	}
+}
+
+
+// Grimlock login
+#navigation {
+	.nav.navbar-nav.navbar-nav--login {
+		margin-top: 0;
+		margin-bottom: 0;
+		@include media-breakpoint-up(lg) {
+			margin-right: 1rem;
+			margin-left: 1rem;
+		}
+		@include media-breakpoint-down(md) {
+			order: -1;
+		}
+		li.menu-item {
+			@include media-breakpoint-down(md) {
+				margin-top: 1rem;
+			}
+			a, button {
+				padding: .5rem 1rem;
+				font-family: inherit;
+				text-transform: inherit;
+				letter-spacing: inherit;
+				line-height: inherit;
+				font-size: .9em;
+				min-height: 40px;
+				width: 100%;
+				text-align: center;
+				align-items: center;
+				display: flex;
+				justify-content: center;
+			}
+			& + li.menu-item {
+				@include media-breakpoint-up(lg) {
+					margin-left: .8rem;
+				}
+			}
+		}
+	}
+}

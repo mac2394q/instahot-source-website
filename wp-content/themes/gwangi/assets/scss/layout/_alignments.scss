@@ -1,0 +1,68 @@
+
+/**
+ * Alignments
+ *
+ * Positionning content elements.
+ */
+.entry-content {
+
+	.size-full {
+		max-width: 100%;
+		height: auto;
+		margin: 0 0 30px 0;
+	}
+
+	.alignleft {
+		float: left;
+		margin: 0 15px 30px 0;
+	}
+
+	.aligncenter {
+		display: block;
+		margin: 0 auto 30px auto;
+	}
+
+	.alignright {
+		float: right;
+		margin: 0 0 30px 15px;
+	}
+
+	.alignnone {
+		float: none;
+		display: block;
+		margin: 0 0 30px 0;
+	}
+
+	p .size-full {
+		max-width: 100%;
+		height: auto;
+		margin: 5px 0 30px 0;
+	}
+
+	p .alignleft {
+		float: left;
+		margin: 5px 15px 30px 0;
+	}
+
+	p .aligncenter {
+		display: block;
+		margin: 5px auto 30px auto;
+	}
+
+	p .alignright {
+		float: right;
+		margin: 5px 0 30px 15px;
+	}
+
+	p .alignnone {
+		float: none;
+		display:block;
+		margin: 5px 0 30px 0;
+
+		.post-media & {
+			margin: 0;
+		}
+
+	}
+
+}

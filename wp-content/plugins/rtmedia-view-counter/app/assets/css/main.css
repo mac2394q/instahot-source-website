@@ -1,0 +1,94 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+Created on	: 1 Jun, 2015, 12:50:02 PM
+Author		: sanket
+Edited By	: Yahil [ 26 Oct 2016, 4:30PM ]
+*/
+
+.rtm-media-view-wrapper {
+	background: rgba(0, 0, 0, 0.2);
+	display: none;
+	height: 100%;
+	position: fixed;
+	width: 100%;
+	z-index: 999999;
+	top: 0;
+}
+
+/* Added Style For Viewer Popup Style */
+#view_list span:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.rtm-media-view {
+	background: white;
+	border-radius: 4px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	overflow: hidden;
+	position: fixed;
+	width: 300px;
+	top: 50%;
+	left: 50%;
+	margin-top: -140px;
+	margin-left: -150px;
+}
+
+.rtm-media-view h3 {
+	background: #f5f6f7;
+	color: #4e5665;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	font-family: 'Source Sans Pro', Helvetica, sans-serif;
+	font-size: 14px;
+	margin: 0 0 2px 0;
+	padding: 5px 10px;
+}
+
+.rtm-media-view .close {
+	color: grey;
+	font-weight: normal;
+	float: right;
+	line-height: 1;
+	cursor: pointer;
+}
+
+.rtm-media-view .loading-gif {
+	display: block;
+	margin: 10px auto;
+}
+
+.media-view-list {
+	list-style: none;
+	margin: 0;
+	padding: 0 10px 10px 10px;
+	overflow-y: auto;
+	max-height: 350px;
+}
+
+/* .media-view-list .view-user {
+	clear: left;
+	margin-top: 10px;
+	overflow: hidden;
+} */
+
+.view-user-avatar {
+	margin-right: 10px;
+	vertical-align: middle;
+	width: 30px;
+	display: inline-block;
+}
+
+.view-user-avatar img {
+	height: auto;
+	max-width: 30px;
+}
+
+.media-view-list .view-desc {
+	font-size: 13px;
+	line-height: 16px;
+	vertical-align: middle;
+	display: inline-block;
+	width: 240px;
+}

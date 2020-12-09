@@ -1,0 +1,19 @@
+.webwidget_rating_simple{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+.webwidget_rating_simple li{
+    line-height: 0px;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    display: inline-block;
+    cursor: pointer;
+    float: left;
+    width: auto;
+}
+.webwidget_rating_simple li .dashicons-star-filled,
+.webwidget_rating_simple li .dashicons-star-empty{
+    color: #FF7F40;
+}

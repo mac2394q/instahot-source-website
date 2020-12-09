@@ -1,0 +1,99 @@
+
+/**
+ * Grimlock BuddyPress
+ *
+ * Grimlock addons for Buddypress.
+ * https://themosaurus.com
+ */
+
+// /**
+//  * Grimlock buddypress group widget
+//  */
+
+// Widget wrapper
+
+div.grimlock-buddypress-groups-section {
+
+	#groups-list-options {
+		margin-bottom: 1.25rem !important;
+		color: inherit;
+		flex-wrap: wrap;
+		> a {
+			@include media-breakpoint-down(sm) {
+				flex: 0 0 50%;
+				max-width: 50%;
+				margin: 0;
+				border: 0;
+			}
+			&.selected {
+				color: var(--grimlock-button-primary-color) !important;
+			}
+			&:hover {
+				color: var(--grimlock-button-primary-background-color);
+			}
+		}
+	}
+
+	.section__content ul#groups-list {
+		> li {
+			background-color: transparent;
+			box-shadow: none !important;
+			border: 0 !important;
+			&:hover {
+				background-color: var(--grimlock-table-striped-background-color);
+			}
+			div.item-avatar {
+				&:before,
+				&:after {
+					content: '';
+					display: block;
+					background-color: var(--grimlock-button-primary-background-color);
+					height: 15px;
+					width: 15px;
+					border-radius: 500px;
+					position: absolute;
+					z-index: 0;
+					top: 5px;
+					left: 10px;
+					box-shadow: 0 0 30px rgba(0,0,0,0.1);
+					pointer-events: none;
+					transition: transform .25s ease-in-out;
+				}
+				&:after {
+					height: 20px;
+					width: 20px;
+					top: auto;
+					bottom: 5px;
+					left: auto;
+					right: 3px;
+				}
+			}
+			div.item {
+				div.item-title {
+					> a {
+						color: inherit !important;
+					}
+				}
+				div.item-meta {
+					text-transform: uppercase;
+					font-weight: 600;
+					font-size: .78em !important;
+					letter-spacing: .5px;
+				}
+			}
+		}
+	}
+
+	.section__content--2-2-2-2-2-2-cols-grid {
+		ul#groups-list {
+			> li {
+				div.item-avatar {
+					&:before,
+					&:after {
+						display: none !important;
+					}
+				}
+			}
+		}
+	}
+}

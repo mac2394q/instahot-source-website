@@ -1,0 +1,9 @@
+.gamipress-reports-list-table .wp-list-table {
+    position: relative;
+    border-left: none;
+    border-right: none;
+}
+
+.gamipress-reports-list-table .tablenav {
+    padding: 0 11px;
+}

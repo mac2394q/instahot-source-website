@@ -1,0 +1,311 @@
+
+/**
+ * Fonts
+ *
+ * Custom fonts.
+ */
+
+// Font variables
+
+$gwangi-font-path: "assets/fonts/gwangi" !default;
+
+$gwangi-match-simple: "\e946";
+$gwangi-loading: "\e957";
+$gwangi-student: "\e955";
+$gwangi-crown: "\e956";
+$gwangi-calendar: "\e900";
+$gwangi-calendar-plus: "\e901";
+$gwangi-calendar-times: "\e902";
+$gwangi-calendar-minus: "\e903";
+$gwangi-calendar-check: "\e904";
+$gwangi-reply-all: "\e905";
+$gwangi-bullseye: "\e906";
+$gwangi-group-request: "\e907";
+$gwangi-quill: "\e908";
+$gwangi-paper-plane: "\e909";
+$gwangi-mail: "\e90a";
+$gwangi-notification: "\e90b";
+$gwangi-box-add: "\e90c";
+$gwangi-visibility-on: "\e90d";
+$gwangi-visibility-off: "\e90e";
+$gwangi-asterisk: "\e90f";
+$gwangi-star-off: "\e910";
+$gwangi-star-half: "\e911";
+$gwangi-star-on: "\e912";
+$gwangi-lock: "\e913";
+$gwangi-balloon: "\e914";
+$gwangi-bell: "\e915";
+$gwangi-remove: "\e916";
+$gwangi-most-member: "\e917";
+$gwangi-cog: "\e918";
+$gwangi-alphabetical: "\e919";
+$gwangi-profile-updates: "\e91a";
+$gwangi-image: "\e91b";
+$gwangi-new-group: "\e91c";
+$gwangi-all-albums: "\e91d";
+$gwangi-all-images: "\e91e";
+$gwangi-all-media: "\e91f";
+$gwangi-marker: "\e920";
+$gwangi-paperclip: "\e921";
+$gwangi-planet: "\e922";
+$gwangi-sun: "\e923";
+$gwangi-new-people: "\e924";
+$gwangi-profile-avatar: "\e925";
+$gwangi-all-music: "\e926";
+$gwangi-cropping: "\e927";
+$gwangi-refresh: "\e928";
+$gwangi-macaroon: "\e929";
+$gwangi-forum: "\e92a";
+$gwangi-edit: "\e92b";
+$gwangi-swap: "\e92c";
+$gwangi-trash: "\e92d";
+$gwangi-fire: "\e92e";
+$gwangi-all-members: "\e92f";
+$gwangi-at: "\e930";
+$gwangi-cart: "\e931";
+$gwangi-chat-off: "\e932";
+$gwangi-chat-on: "\e933";
+$gwangi-filter: "\e934";
+$gwangi-my-groups: "\e935";
+$gwangi-gwangi: "\e936";
+$gwangi-last-active: "\e937";
+$gwangi-love-off: "\e938";
+$gwangi-love-on: "\e939";
+$gwangi-love-request: "\e93a";
+$gwangi-people: "\e93b";
+$gwangi-pinned-off: "\e93c";
+$gwangi-pinned-on: "\e93d";
+$gwangi-plus: "\e93e";
+$gwangi-search: "\e93f";
+$gwangi-smile: "\e940";
+$gwangi-bullhorn: "\e941";
+$gwangi-all-video: "\e942";
+$gwangi-brush: "\e943";
+$gwangi-anchor-arrow: "\e944";
+$gwangi-match: "\e945";
+$gwangi-check: "\e947";
+$gwangi-add-request: "\e948";
+$gwangi-like-off: "\e949";
+$gwangi-like-on: "\e94a";
+$gwangi-like-request: "\e94b";
+$gwangi-smile-off: "\e94c";
+$gwangi-smile-on: "\e94d";
+$gwangi-smile-request: "\e94e";
+$gwangi-star-request: "\e951";
+$gwangi-person-off: "\e952";
+$gwangi-person-on: "\e953";
+$gwangi-person-request: "\e954";
+
+
+@font-face {
+	font-family: 'gwangi';
+	src:
+		url('#{$gwangi-font-path}/gwangi.ttf?foirwg') format('truetype'),
+		url('#{$gwangi-font-path}/gwangi.woff?foirwg') format('woff'),
+		url('#{$gwangi-font-path}/gwangi.svg?foirwg#gwangi') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.gwangi-icon {
+	font-family: 'gwangi' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: auto;
+}
+
+.gwangi-match-simple { &:before { content: $gwangi-match-simple; } }
+.gwangi-match { &:before { content: $gwangi-anchor-arrow; } }
+.gwangi-anchor-arrow { &:before { content: $gwangi-anchor-arrow; } }
+.gwangi-brush { &:before { content: $gwangi-brush; } }
+.gwangi-all-albums { &:before { content: $gwangi-all-albums; } }
+.gwangi-all-images { &:before { content: $gwangi-all-images; } }
+.gwangi-all-media { &:before { content: $gwangi-all-media; } }
+.gwangi-all-music { &:before { content: $gwangi-all-music; } }
+.gwangi-all-video { &:before { content: $gwangi-all-video; } }
+.gwangi-most-member { &:before { content: $gwangi-most-member; } }
+.gwangi-alphabetical { &:before { content: $gwangi-alphabetical; } }
+.gwangi-profile-updates { &:before { content: $gwangi-profile-updates; } }
+.gwangi-new-group { &:before { content: $gwangi-new-group; } }
+.gwangi-lock { &:before { content: $gwangi-lock; } }
+.gwangi-bullhorn { &:before { content: $gwangi-bullhorn; } }
+.gwangi-calendar { &:before { content: $gwangi-calendar; } }
+.gwangi-calendar-plus { &:before { content: $gwangi-calendar-plus; } }
+.gwangi-calendar-times { &:before { content: $gwangi-calendar-times; } }
+.gwangi-calendar-minus { &:before { content: $gwangi-calendar-minus; } }
+.gwangi-calendar-check { &:before { content: $gwangi-calendar-check; } }
+.gwangi-reply-all { &:before { content: $gwangi-reply-all; } }
+.gwangi-bullseye { &:before { content: $gwangi-bullseye; } }
+.gwangi-group-request { &:before { content: $gwangi-group-request; } }
+.gwangi-quill { &:before { content: $gwangi-quill; } }
+.gwangi-paper-plane { &:before { content: $gwangi-paper-plane; } }
+.gwangi-mail { &:before { content: $gwangi-mail; } }
+.gwangi-notification { &:before { content: $gwangi-notification; } }
+.gwangi-box-add { &:before { content: $gwangi-box-add; } }
+.gwangi-visibility-on { &:before { content: $gwangi-visibility-on; } }
+.gwangi-visibility-off { &:before { content: $gwangi-visibility-off; } }
+.gwangi-asterisk { &:before { content: $gwangi-asterisk; } }
+.gwangi-star-off { &:before { content: $gwangi-star-off; } }
+.gwangi-star-half { &:before { content: $gwangi-star-half; } }
+.gwangi-star-on { &:before { content: $gwangi-star-on; } }
+.gwangi-new-people { &:before { content: $gwangi-new-people; } }
+.gwangi-profile-avatar { &:before { content: $gwangi-profile-avatar; } }
+.gwangi-cropping { &:before { content: $gwangi-cropping; } }
+.gwangi-refresh { &:before { content: $gwangi-refresh; } }
+.gwangi-macaroon { &:before { content: $gwangi-macaroon; } }
+.gwangi-forum { &:before { content: $gwangi-forum; } }
+.gwangi-edit { &:before { content: $gwangi-edit; } }
+.gwangi-swap { &:before { content: $gwangi-swap; } }
+.gwangi-balloon { &:before { content: $gwangi-balloon; } }
+.gwangi-bell { &:before { content: $gwangi-bell; } }
+.gwangi-cog { &:before { content: $gwangi-cog; } }
+.gwangi-settings { &:before { content: $gwangi-cog; } }
+.gwangi-image { &:before { content: $gwangi-image; } }
+.gwangi-marker { &:before { content: $gwangi-marker; } }
+.gwangi-paperclip { &:before { content: $gwangi-paperclip; } }
+.gwangi-planet { &:before { content: $gwangi-planet; } }
+.gwangi-sun { &:before { content: $gwangi-sun; } }
+.gwangi-trash { &:before { content: $gwangi-trash; } }
+.gwangi-fire { &:before { content: $gwangi-fire; } }
+.gwangi-all-members { &:before { content: $gwangi-all-members; } }
+.gwangi-at { &:before { content: $gwangi-at; } }
+.gwangi-cart { &:before { content: $gwangi-cart; } }
+.gwangi-chat-off { &:before { content: $gwangi-chat-off; } }
+.gwangi-chat-on { &:before { content: $gwangi-chat-on; } }
+.gwangi-filter { &:before { content: $gwangi-filter; } }
+.gwangi-my-groups { &:before { content: $gwangi-my-groups; } }
+.gwangi-gwangi { &:before { content: $gwangi-gwangi; } }
+.gwangi-last-active { &:before { content: $gwangi-last-active; } }
+.gwangi-love-off { &:before { content: $gwangi-love-off; } }
+.gwangi-love-on { &:before { content: $gwangi-love-on; } }
+.gwangi-love-request { &:before { content: $gwangi-love-request; } }
+.gwangi-people { &:before { content: $gwangi-people; } }
+.gwangi-pinned-off { &:before { content: $gwangi-pinned-off; } }
+.gwangi-pinned-on { &:before { content: $gwangi-pinned-on; } }
+.gwangi-plus { &:before { content: $gwangi-plus; } }
+.gwangi-remove { &:before { content: $gwangi-remove; } }
+.gwangi-search { &:before { content: $gwangi-search; } }
+.gwangi-smile { &:before { content: $gwangi-smile; } }
+.gwangi-person-off { &:before { content: $gwangi-person-off; } }
+.gwangi-person-on { &:before { content: $gwangi-person-on; } }
+.gwangi-person-request { &:before { content: $gwangi-person-request; } }
+.gwangi-plus, .gwangi-add-on { &:before { content: $gwangi-plus; } }
+.gwangi-add-request { &:before { content: $gwangi-add-request; } }
+.gwangi-like-off { &:before { content: $gwangi-like-off; } }
+.gwangi-like-on { &:before { content: $gwangi-like-on; } }
+.gwangi-like-request { &:before { content: $gwangi-like-request; } }
+.gwangi-smile-off { &:before { content: $gwangi-smile-off; } }
+.gwangi-smile-on { &:before { content: $gwangi-smile-on; } }
+.gwangi-smile-request { &:before { content: $gwangi-smile-request; } }
+.gwangi-star-off { &:before { content: $gwangi-star-off; } }
+.gwangi-star-on { &:before { content: $gwangi-star-on; } }
+.gwangi-star-request { &:before { content: $gwangi-star-request; } }
+.gwangi-crown { &:before { content: $gwangi-crown; } }
+.gwangi-student { &:before { content: $gwangi-student; } }
+
+/* Override fonts */
+$icons: (
+	"times": #{$gwangi-remove},
+	"check": #{$gwangi-check},
+	"edit": #{$gwangi-edit},
+	"alert-circle": #{$gwangi-notification},
+	"plus": #{$gwangi-plus},
+	"search": #{$gwangi-search},
+	"cog": #{$gwangi-cog},
+	"filter": #{$gwangi-filter},
+	"lock": #{$gwangi-lock},
+	"globe": #{$gwangi-planet},
+	"map-marker": #{$gwangi-marker},
+	"trash": #{$gwangi-trash},
+	"paperclip": #{$gwangi-paperclip},
+	"message": #{$gwangi-chat-on},
+	"messages": #{$gwangi-chat-on},
+	"loading": #{$gwangi-loading},
+	"grid": #{$gwangi-all-media},
+	"eye": #{$gwangi-visibility-on},
+	"eye-off": #{$gwangi-visibility-off},
+	"user": #{$gwangi-people},
+	"users": #{$gwangi-all-members},
+	"group": #{$gwangi-all-members},
+	"groups": #{$gwangi-all-members},
+	"star": #{$gwangi-star-on},
+	"star-half": #{$gwangi-star-half},
+	"star-off": #{$gwangi-star-off},
+	"at": #{$gwangi-at},
+	"personal": #{$gwangi-people},
+	"trophy": #{$gwangi-macaroon},
+	"profile-avatar": #{$gwangi-profile-avatar},
+	"image": #{$gwangi-image},
+	"inbox": #{$gwangi-box-add},
+	"quill": #{$gwangi-quill},
+	"bell": #{$gwangi-bell},
+	"envelope": #{$gwangi-mail},
+	"chat": #{$gwangi-chat-on},
+	"topic": #{$gwangi-chat-on},
+	"album": #{$gwangi-all-albums},
+	"video": #{$gwangi-all-video},
+	"music": #{$gwangi-all-music},
+	"spinner": #{$gwangi-loading},
+	"calendar": #{$gwangi-calendar},
+	"asterisk": #{$gwangi-planet},
+	"stat": #{$gwangi-most-member},
+	"refresh": #{$gwangi-refresh},
+	"switch": #{$gwangi-swap},
+	"cart": #{$gwangi-cart},
+	"checkout": #{$gwangi-check},
+
+	// Grimlock for BuddyPress
+	"user-new": #{$gwangi-new-people},
+	"group-request": #{$gwangi-group-request},
+	"bp-private-message": #{$gwangi-chat-on},
+	"bp-friend-add": #{$gwangi-love-off},
+	"my-groups": #{$gwangi-my-groups},
+	"my-friends": #{$gwangi-love-on},
+	"my-friends-person": #{$gwangi-person-on},
+	"my-friends-like": #{$gwangi-like-on},
+	"my-friends-smile": #{$gwangi-smile-on},
+	"my-friends-star": #{$gwangi-star-on},
+	"my-friends-symbol": #{$gwangi-check},
+	"bp-friend-person-add": #{$gwangi-person-off},
+	"bp-friend-smile-add": #{$gwangi-smile-off},
+	"bp-friend-like-add": #{$gwangi-like-off},
+	"bp-friend-star-add": #{$gwangi-star-off},
+	"bp-friend-symbol-add": #{$gwangi-plus},
+	"bp-friend-requested": #{$gwangi-love-request},
+	"bp-friend-person-requested": #{$gwangi-person-request},
+	"bp-friend-smile-requested": #{$gwangi-smile-request},
+	"bp-friend-like-requested": #{$gwangi-like-request},
+	"bp-friend-star-requested": #{$gwangi-star-request},
+	"bp-friend-symbol-requested": #{$gwangi-add-request},
+	"bp-friend-approved": #{$gwangi-love-on},
+	"bp-friend-person-approved": #{$gwangi-person-on},
+	"bp-friend-smile-approved": #{$gwangi-smile-on},
+	"bp-friend-like-approved": #{$gwangi-like-on},
+	"bp-friend-star-approved": #{$gwangi-star-on},
+	"bp-friend-symbol-approved": #{$gwangi-check},
+	"bp-friend-remove": #{$gwangi-remove},
+	"bp-friend-person-remove": #{$gwangi-remove},
+	"bp-friend-smile-remove": #{$gwangi-remove},
+	"bp-friend-like-remove": #{$gwangi-remove},
+	"bp-friend-star-remove": #{$gwangi-remove},
+	"bp-friend-symbol-remove": #{$gwangi-remove},
+	"bp-match": #{$gwangi-match-simple},
+
+	// Grimlock for WooCommerce
+	"wc-wishlist": #{$gwangi-love-off},
+	"wc-wishlist-added": #{$gwangi-love-on},
+	"wc-filters": #{$gwangi-filter},
+);
+
+:root {
+	@each $name, $glyph in $icons {
+		--grimlock-icon-#{$name}: "#{$glyph}";
+		--grimlock-icon-#{$name}-font-family: 'gwangi';
+	}
+}

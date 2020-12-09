@@ -1,0 +1,167 @@
+# Copyright (C) 2020 grimlock-hero
+# This file is distributed under the same license as the grimlock-hero package.
+msgid ""
+msgstr ""
+"Project-Id-Version: grimlock-hero\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Themosaurus <support@themosaurus.com>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: inc/customizer/class-grimlock-hero-customizer.php:28
+msgid "Hero"
+msgstr ""
+
+#: inc/customizer/class-grimlock-hero-customizer.php:137
+msgid "Title goes here..."
+msgstr ""
+
+#: inc/customizer/class-grimlock-hero-customizer.php:151
+msgid "Subtitle goes here..."
+msgstr ""
+
+#: inc/customizer/class-grimlock-hero-customizer.php:164
+msgid "Text goes here..."
+msgstr ""
+
+#: inc/customizer/class-grimlock-hero-customizer.php:178
+msgid "Learn more"
+msgstr ""
+
+#: inc/customizer/class-grimlock-hero-customizer.php:230
+msgid "Vertical padding can be manually set or the full screen mode can be activated instead."
+msgstr ""
+
+#: inc/customizer/class-grimlock-hero-customizer.php:291
+msgid "General"
+msgstr ""
+
+#: inc/customizer/class-grimlock-hero-customizer.php:313, inc/customizer/class-grimlock-hero-customizer.php:697
+msgid "Layout"
+msgstr ""
+
+#: inc/customizer/class-grimlock-hero-customizer.php:325
+msgid "Style"
+msgstr ""
+
+#: inc/customizer/class-grimlock-hero-customizer.php:382
+msgid "Featured Image"
+msgstr ""
+
+#: inc/customizer/class-grimlock-hero-customizer.php:402
+msgid "Title"
+msgstr ""
+
+#: inc/customizer/class-grimlock-hero-customizer.php:435
+msgid "Title Typography"
+msgstr ""
+
+#: inc/customizer/class-grimlock-hero-customizer.php:508
+msgid "Subtitle"
+msgstr ""
+
+#: inc/customizer/class-grimlock-hero-customizer.php:541
+msgid "Subtitle Typography"
+msgstr ""
+
+#: inc/customizer/class-grimlock-hero-customizer.php:625
+msgid "Text Typography"
+msgstr ""
+
+#: inc/customizer/class-grimlock-hero-customizer.php:727
+msgid "Activate full screen mode"
+msgstr ""
+
+#: inc/customizer/class-grimlock-hero-customizer.php:747
+msgid "Text"
+msgstr ""
+
+#: inc/customizer/class-grimlock-hero-customizer.php:791
+msgid "Display search form"
+msgstr ""
+
+#: inc/customizer/class-grimlock-hero-customizer.php:812
+msgid "Display login form"
+msgstr ""
+
+#: inc/customizer/class-grimlock-hero-customizer.php:813
+msgid "The form is only visible for logged out users. Therefore it will not show in the preview."
+msgstr ""
+
+#: inc/customizer/class-grimlock-hero-customizer.php:840
+msgid "Button Text"
+msgstr ""
+
+#: inc/customizer/class-grimlock-hero-customizer.php:869
+msgid "Button Link"
+msgstr ""
+
+#: inc/customizer/class-grimlock-hero-customizer.php:891
+msgid "Open link in a new page"
+msgstr ""
+
+#: inc/customizer/class-grimlock-hero-customizer.php:912
+msgid "Display button"
+msgstr ""
+
+#: inc/customizer/class-grimlock-hero-customizer.php:947
+msgid "Button Background Color"
+msgstr ""
+
+#: inc/customizer/class-grimlock-hero-customizer.php:990
+msgid "Button Color"
+msgstr ""
+
+#: inc/customizer/class-grimlock-hero-customizer.php:1033
+msgid "Button Border Color"
+msgstr ""
+
+#: inc/customizer/class-grimlock-hero-customizer.php:1080
+msgid "Button Background Color on Hover"
+msgstr ""
+
+#: inc/customizer/class-grimlock-hero-customizer.php:1127
+msgid "Button Color on Hover"
+msgstr ""
+
+#: inc/customizer/class-grimlock-hero-customizer.php:1174
+msgid "Button Border Color on Hover"
+msgstr ""
+
+#: inc/customizer/class-grimlock-hero-customizer.php:1203
+msgid "Button Size"
+msgstr ""
+
+#: inc/customizer/class-grimlock-hero-customizer.php:1208
+msgid "Small"
+msgstr ""
+
+#: inc/customizer/class-grimlock-hero-customizer.php:1209
+msgid "Regular"
+msgstr ""
+
+#: inc/customizer/class-grimlock-hero-customizer.php:1210
+msgid "Large"
+msgstr ""
+
+#: inc/customizer/class-grimlock-hero-customizer.php:1230
+msgid "Add gradient to background color"
+msgstr ""
+
+#: inc/customizer/class-grimlock-hero-customizer.php:1250
+msgid "Background Gradient First Color"
+msgstr ""
+
+#: inc/customizer/class-grimlock-hero-customizer.php:1283
+msgid "Background Gradient Second Color"
+msgstr ""
+
+#: inc/customizer/class-grimlock-hero-customizer.php:1358
+msgid "Background Gradient Position"
+msgstr ""

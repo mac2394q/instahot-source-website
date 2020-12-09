@@ -1,0 +1,15 @@
+
+.rtmedia-custom-thumbnail-wrapper {
+    display: grid;
+    .rtmedia-custom-thumbnail-image {
+        max-width: 150px;
+        max-height: 150px;
+    }
+    p {
+        margin: 0;
+    }
+    div > img {
+        margin: 10px 0;
+    }
+}
+

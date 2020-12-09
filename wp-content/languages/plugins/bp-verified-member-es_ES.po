@@ -1,0 +1,170 @@
+# Translation of Plugins - Verified Member for BuddyPress - Development (trunk) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Verified Member for BuddyPress - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-01-31 19:31:43+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Verified Member for BuddyPress - Development (trunk)\n"
+
+#: admin/class-bp-verified-member-admin.php:154
+msgid "Unverified %s user."
+msgid_plural "Unverified %s users."
+msgstr[0] "%s usuario no verificado"
+msgstr[1] "%s usuarios no verificados"
+
+#: admin/class-bp-verified-member-admin.php:148
+msgid "Verified %s user."
+msgid_plural "Verified %s users."
+msgstr[0] "%s usuario verificado"
+msgstr[1] "%s usuarios verificados"
+
+#: admin/class-bp-verified-member-admin.php:109
+msgid "Unverify"
+msgstr "Desverificar"
+
+#: admin/class-bp-verified-member-admin.php:108
+msgid "Verify"
+msgstr "Verificar"
+
+#: admin/class-bp-verified-member-admin.php:73
+msgid "Verified"
+msgstr "Verificado"
+
+#: admin/settings/class-bp-verified-member-settings.php:189
+msgid "Display Verified Badge in WordPress Comments"
+msgstr "Mostrar acreditación verificada en los comentarios de WordPress"
+
+#: admin/settings/class-bp-verified-member-settings.php:188
+msgid "Display in Comments"
+msgstr "Mostrar en los comentarios"
+
+#: admin/settings/class-bp-verified-member-settings.php:185
+msgid "WordPress Settings"
+msgstr "Ajustes de WordPress"
+
+#: admin/settings/class-bp-verified-member-settings.php:179
+msgid "Display Verified Badge in BBPress Replies"
+msgstr "Mostrar acreditación verificada en respuestas de BBPress"
+
+#: admin/settings/class-bp-verified-member-settings.php:178
+msgid "Display in Replies"
+msgstr "Mostrar en respuestas"
+
+#: admin/settings/class-bp-verified-member-settings.php:174
+msgid "Display Verified Badge in BBPress Topics"
+msgstr "Mostrar acreditación verificada en los debates de BBPress"
+
+#: admin/settings/class-bp-verified-member-settings.php:173
+msgid "Display in Topics"
+msgstr "Mostrar en debates"
+
+#: admin/settings/class-bp-verified-member-settings.php:170
+msgid "bbPress Settings"
+msgstr "Ajustes de bbPress"
+
+#: admin/settings/class-bp-verified-member-settings.php:163
+msgid "Display in Directories"
+msgstr "Mostrar en directorios"
+
+#: admin/settings/class-bp-verified-member-settings.php:160
+msgid "Directories Settings"
+msgstr "Ajustes de directorios"
+
+#: admin/settings/class-bp-verified-member-settings.php:153
+msgid "Display in Fullname"
+msgstr "Mostrar en el nombre completo"
+
+#: admin/settings/class-bp-verified-member-settings.php:148
+msgid "Display in Username"
+msgstr "Mostrar en el nombre de usuario"
+
+#: admin/settings/class-bp-verified-member-settings.php:145
+msgid "Profiles Settings"
+msgstr "Ajustes de perfiles"
+
+#: admin/settings/class-bp-verified-member-settings.php:138
+msgid "Display in Activities"
+msgstr "Mostrar en actividades"
+
+#: admin/settings/class-bp-verified-member-settings.php:135
+msgid "Activities Settings"
+msgstr "Ajustes de actividades"
+
+#: admin/settings/class-bp-verified-member-settings.php:129
+msgid "Verified Badge Color"
+msgstr "Color de la acreditación verificada"
+
+#: admin/settings/class-bp-verified-member-settings.php:126
+msgid "Style Settings"
+msgstr "Ajustes de estilo"
+
+#: inc/class-bp-verified-member.php:57
+msgid "Settings"
+msgstr "Ajustes"
+
+#: admin/settings/class-bp-verified-member-settings.php:154
+msgid "Display Verified Badge in Profile Fullname"
+msgstr "Mostrar acreditación de verificado en el nombre completo del perfil"
+
+#: admin/settings/class-bp-verified-member-settings.php:149
+msgid "Display Verified Badge in Profile Username"
+msgstr "Mostrar acreditación de verificado en el nombre de usuario del perfil"
+
+#. translators: placeholders are opening and closing <a> tag, linking to
+#. BuddyPress plugin
+#: bp-verified-member.php:37
+msgid "Verified Member for BuddyPress requires %1$sBuddyPress%2$s to be installed and activated."
+msgstr "Verified Member for BuddyPress requiere %1$sBuddyPress%2$s para poder instalarlo y activarlo."
+
+#: admin/settings/class-bp-verified-member-settings.php:164
+msgid "Display Verified Badge in Members Lists"
+msgstr "Mostrar acreditación de verificado en las listas de miembros"
+
+#: admin/settings/class-bp-verified-member-settings.php:139
+msgid "Display Verified Badge in Activity Stream"
+msgstr "Mostrar acreditación de verificado en el flujo de actividad"
+
+#: admin/settings/class-bp-verified-member-settings.php:71
+#: admin/settings/class-bp-verified-member-settings.php:88
+msgid "Verified Member Settings"
+msgstr "Ajustes de miembro verificado"
+
+#: admin/meta-box/class-bp-verified-member-meta-box.php:74
+msgid "Mark this member as verified"
+msgstr "Marcar a este miembro como verificado"
+
+#: admin/meta-box/class-bp-verified-member-meta-box.php:70
+#: admin/settings/class-bp-verified-member-settings.php:90
+#: admin/settings/class-bp-verified-member-settings.php:294
+msgid "Verified Member"
+msgstr "Miembro verificado"
+
+#: admin/meta-box/class-bp-verified-member-meta-box.php:46
+msgid "Verify Member"
+msgstr "Verificar miembro"
+
+#. Author URI of the plugin
+msgid "https://themosaurus.com/"
+msgstr "https://themosaurus.com/"
+
+#. Author of the plugin
+msgid "Themosaurus"
+msgstr "Themosaurus"
+
+#. Description of the plugin
+msgid "This plugins allows admins to add a \"Verified\" badge for specific members."
+msgstr "Este plugin permite a los administradores añadir una acreditación de «Verificado» para miembros específicos."
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/bp-verified-member/"
+msgstr "https://es.wordpress.org/plugins/bp-verified-member/"
+
+#. Plugin Name of the plugin
+#: admin/settings/class-bp-verified-member-settings.php:72
+msgid "Verified Member for BuddyPress"
+msgstr "Verified Member for BuddyPress"

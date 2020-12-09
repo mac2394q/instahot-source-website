@@ -1,0 +1,315 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GamiPress Reports\n"
+"Report-Msgid-Bugs-To: https://gamipress.com/\n"
+"POT-Creation-Date: 2019-05-28 18:10+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: GamiPress (https://gamipress.com/)\n"
+"Language-Team: GamiPress <contact@gamipress.com>\n"
+"X-Generator: Poedit 2.0.8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: libraries\n"
+
+#: classes/report-chart.php:90
+msgid "Year"
+msgstr ""
+
+#: classes/report-chart.php:91
+msgid "Month"
+msgstr ""
+
+#: classes/report-chart.php:92
+msgid "Week"
+msgstr ""
+
+#: classes/report-comparison-chart.php:175
+msgid "(Previous Week)"
+msgstr ""
+
+#: classes/report-list-table.php:215
+msgid "Show more details"
+msgstr ""
+
+#: classes/report-list-table.php:275
+msgid "No results found"
+msgstr ""
+
+#: classes/report-list-table.php:430
+#, php-format
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/report-list-table.php:466
+msgid "First page"
+msgstr ""
+
+#: classes/report-list-table.php:476
+msgid "Previous page"
+msgstr ""
+
+#: classes/report-list-table.php:483 classes/report-list-table.php:486
+msgid "Current Page"
+msgstr ""
+
+#: classes/report-list-table.php:492
+#, php-format
+msgctxt "paging"
+msgid "%1$s of %2$s"
+msgstr ""
+
+#: classes/report-list-table.php:499
+msgid "Next page"
+msgstr ""
+
+#: classes/report-list-table.php:509
+msgid "Last page"
+msgstr ""
+
+#: gamipress-reports.php:176
+#, php-format
+msgid "GamiPress - Reports requires %s (%s or higher) in order to work. Please install and activate them."
+msgstr ""
+
+#: includes/admin.php:25 includes/admin.php:59
+msgid "GamiPress Reports"
+msgstr ""
+
+#: includes/admin.php:62
+msgid "License"
+msgstr ""
+
+#: includes/admin.php:86
+msgid "Reports"
+msgstr ""
+
+#: includes/admin/pages/achievements-reports.php:20
+#: includes/admin/pages/dashboard-reports.php:402
+msgid "Achievements Reports"
+msgstr ""
+
+#: includes/admin/pages/achievements-reports.php:94
+#: includes/admin/pages/dashboard-reports.php:377
+#: includes/admin/pages/dashboard-reports.php:583
+#: includes/admin/pages/dashboard-reports.php:684
+#: includes/admin/pages/dashboard-reports.php:894
+#: includes/admin/pages/ranks-reports.php:93
+msgid "Active"
+msgstr ""
+
+#: includes/admin/pages/achievements-reports.php:103
+#: includes/admin/pages/achievements-reports.php:365
+#: includes/admin/pages/achievements-reports.php:594
+#: includes/admin/pages/achievements-reports.php:616
+#: includes/admin/pages/dashboard-reports.php:386
+#: includes/admin/pages/dashboard-reports.php:584
+#: includes/admin/pages/ranks-reports.php:352
+#: includes/admin/pages/ranks-reports.php:591
+#: includes/admin/pages/ranks-reports.php:613
+msgid "Earned"
+msgstr ""
+
+#: includes/admin/pages/achievements-reports.php:112
+#: includes/admin/pages/achievements-reports.php:671
+#: includes/admin/pages/achievements-reports.php:693
+#: includes/admin/pages/dashboard-reports.php:98
+#: includes/admin/pages/dashboard-reports.php:264
+#: includes/admin/pages/dashboard-reports.php:395
+#: includes/admin/pages/dashboard-reports.php:585
+#: includes/admin/pages/points-reports.php:101
+#: includes/admin/pages/points-reports.php:352
+#: includes/admin/pages/points-reports.php:446
+#: includes/admin/pages/points-reports.php:468
+#: includes/admin/pages/ranks-reports.php:668
+#: includes/admin/pages/ranks-reports.php:690
+msgid "Awarded"
+msgstr ""
+
+#: includes/admin/pages/achievements-reports.php:130
+msgid "Earned Stats"
+msgstr ""
+
+#: includes/admin/pages/achievements-reports.php:153
+#: includes/admin/pages/points-reports.php:175
+#: includes/admin/pages/ranks-reports.php:151
+msgid "Users Report"
+msgstr ""
+
+#: includes/admin/pages/achievements-reports.php:160
+msgid "Achievements Report"
+msgstr ""
+
+#: includes/admin/pages/achievements-reports.php:364
+#: includes/admin/pages/points-reports.php:350
+#: includes/admin/pages/ranks-reports.php:350
+msgid "User"
+msgstr ""
+
+#: includes/admin/pages/achievements-reports.php:366
+msgid "Last Earned"
+msgstr ""
+
+#: includes/admin/pages/achievements-reports.php:393
+#: includes/admin/pages/achievements-reports.php:509
+#: includes/admin/pages/achievements-reports.php:530
+#: includes/admin/pages/dashboard-reports.php:297
+#: includes/admin/pages/dashboard-reports.php:342
+#: includes/admin/pages/dashboard-reports.php:616
+#: includes/admin/pages/dashboard-reports.php:649
+#: includes/admin/pages/dashboard-reports.php:927
+#: includes/admin/pages/dashboard-reports.php:960
+#: includes/admin/pages/points-reports.php:382
+#: includes/admin/pages/ranks-reports.php:380
+#: includes/admin/pages/ranks-reports.php:506
+#: includes/admin/pages/ranks-reports.php:527
+#, php-format
+msgid "&#8220;%s&#8221; (Edit)"
+msgstr ""
+
+#: includes/admin/pages/achievements-reports.php:480
+#: includes/admin/pages/dashboard-reports.php:479
+msgid "Achievement"
+msgstr ""
+
+#: includes/admin/pages/achievements-reports.php:481
+#: includes/admin/pages/ranks-reports.php:477
+msgid "Earners"
+msgstr ""
+
+#: includes/admin/pages/achievements-reports.php:482
+#: includes/admin/pages/ranks-reports.php:478
+msgid "Last Earner"
+msgstr ""
+
+#: includes/admin/pages/dashboard-reports.php:20
+msgid "Dashboard"
+msgstr ""
+
+#: includes/admin/pages/dashboard-reports.php:51
+#: includes/admin/pages/dashboard-reports.php:168
+msgid "Points"
+msgstr ""
+
+#: includes/admin/pages/dashboard-reports.php:56
+#: includes/admin/pages/dashboard-reports.php:480
+msgid "Achievements"
+msgstr ""
+
+#: includes/admin/pages/dashboard-reports.php:61
+#: includes/admin/pages/dashboard-reports.php:784
+msgid "Ranks"
+msgstr ""
+
+#: includes/admin/pages/dashboard-reports.php:89
+#: includes/admin/pages/points-reports.php:92
+msgid "In Circulation"
+msgstr ""
+
+#: includes/admin/pages/dashboard-reports.php:107
+#: includes/admin/pages/dashboard-reports.php:265
+#: includes/admin/pages/points-reports.php:110
+#: includes/admin/pages/points-reports.php:353
+#: includes/admin/pages/points-reports.php:516
+#: includes/admin/pages/points-reports.php:538
+msgid "Deducted"
+msgstr ""
+
+#: includes/admin/pages/dashboard-reports.php:116
+#: includes/admin/pages/dashboard-reports.php:266
+#: includes/admin/pages/points-reports.php:119
+#: includes/admin/pages/points-reports.php:354
+#: includes/admin/pages/points-reports.php:585
+#: includes/admin/pages/points-reports.php:607
+msgid "Expended"
+msgstr ""
+
+#: includes/admin/pages/dashboard-reports.php:124
+#: includes/admin/pages/points-reports.php:20
+msgid "Points Reports"
+msgstr ""
+
+#: includes/admin/pages/dashboard-reports.php:167
+msgid "Point"
+msgstr ""
+
+#: includes/admin/pages/dashboard-reports.php:262
+msgid "Points Type"
+msgstr ""
+
+#: includes/admin/pages/dashboard-reports.php:263
+msgid "Circulation"
+msgstr ""
+
+#: includes/admin/pages/dashboard-reports.php:343
+#: includes/admin/pages/dashboard-reports.php:650
+#: includes/admin/pages/dashboard-reports.php:961
+msgid "Edit"
+msgstr ""
+
+#: includes/admin/pages/dashboard-reports.php:350
+#: includes/admin/pages/dashboard-reports.php:351
+#: includes/admin/pages/dashboard-reports.php:657
+#: includes/admin/pages/dashboard-reports.php:658
+#: includes/admin/pages/dashboard-reports.php:968
+#: includes/admin/pages/dashboard-reports.php:969
+msgid "View Reports"
+msgstr ""
+
+#: includes/admin/pages/dashboard-reports.php:582
+msgid "Achievement Type"
+msgstr ""
+
+#: includes/admin/pages/dashboard-reports.php:693
+#: includes/admin/pages/ranks-reports.php:102
+msgid "Users on highest rank"
+msgstr ""
+
+#: includes/admin/pages/dashboard-reports.php:702
+#: includes/admin/pages/ranks-reports.php:111
+msgid "Users on lowest rank"
+msgstr ""
+
+#: includes/admin/pages/dashboard-reports.php:709
+#: includes/admin/pages/ranks-reports.php:20
+msgid "Ranks Reports"
+msgstr ""
+
+#: includes/admin/pages/dashboard-reports.php:783
+#: includes/admin/pages/ranks-reports.php:476
+msgid "Rank"
+msgstr ""
+
+#: includes/admin/pages/dashboard-reports.php:893
+msgid "Rank Type"
+msgstr ""
+
+#: includes/admin/pages/dashboard-reports.php:895
+msgid "In highest rank"
+msgstr ""
+
+#: includes/admin/pages/dashboard-reports.php:896
+msgid "In lowest rank"
+msgstr ""
+
+#: includes/admin/pages/points-reports.php:351
+msgid "Current Balance"
+msgstr ""
+
+#: includes/admin/pages/ranks-reports.php:158
+msgid "Ranks Report"
+msgstr ""
+
+#: includes/admin/pages/ranks-reports.php:351
+msgid "Current"
+msgstr ""

@@ -1,0 +1,76 @@
+
+/**
+ * Pagination
+ *
+ * Post navigation, Pager & Pagination
+*/
+
+.site-content {
+
+    .post-navigation,
+    .posts-navigation {
+        .nav-links {
+
+            display: flex;
+            padding: 0;
+            margin: 0;
+
+            @include media-breakpoint-down(xs) {
+                flex-direction: column;
+            }
+
+            > div,
+            > li {
+                padding: 0;
+                width: 100%;
+
+                @include media-breakpoint-down(xs) {
+                    margin-top: .2rem;
+                    margin-bottom: .2rem;
+                }
+            }
+            a {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100%;
+                width: 100%;
+                border-radius: 0;
+                border-right: none;
+                border-left: none;
+                border-width: 2px;
+                @include media-breakpoint-up(md) {
+                    font-size: 1.2em;
+                    padding: 3rem 1rem;
+                }
+                @include media-breakpoint-down(xs) {
+                    padding-top: 1rem;
+                    padding-bottom: 1rem;
+                }
+                &:before,
+                &:after {
+                    @include transition(transform ease-in-out .2s);
+                }
+                &:hover {
+                    &:after {
+                        transform: translate3d(5px,0,0);
+                        @include rtl {
+                            transform: scaleX(-1) translate3d(5px,0,0);
+                        }
+                    }
+                    &:before {
+                        transform: translate3d(-5px,0,0);
+                        @include rtl {
+                            transform: scaleX(-1) translate3d(-5px,0,0);
+                        }
+                    }
+                }
+            }
+            .nav-next {
+                text-align: right;
+            }
+        }
+    }
+
+}
+

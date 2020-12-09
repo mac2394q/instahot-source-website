@@ -1,0 +1,253 @@
+# Copyright (C) 2019 rtCamp
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: rtMedia Likes 1.3.4\n"
+"Report-Msgid-Bugs-To: http://community.rtcamp.com/c/rtmedia/\n"
+"POT-Creation-Date: 2019-03-20 12:33:09+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: rtMedia <rtmedia@rtcamp.com>\n"
+"Language-Team: rtMedia <rtmedia@rtcamp.com>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+
+#: app/RTMediaLikes.php:51
+msgid "No likes for the media"
+msgstr ""
+
+#: app/RTMediaLikes.php:52
+msgid "Click to see who liked this media"
+msgstr ""
+
+#: app/admin/RTMediaLikesAdmin.php:51
+msgid "MEDIA LIKES"
+msgstr ""
+
+#: app/admin/RTMediaLikesAdmin.php:64
+msgid "Likes page in Media tab "
+msgstr ""
+
+#: app/admin/RTMediaLikesAdmin.php:69
+msgid ""
+"Add a separate \"Likes\" page under the \"Media\" tab in every user's "
+"profile that will display any media that the user has liked."
+msgstr ""
+
+#: app/admin/RTMediaLikesAdmin.php:85
+msgid "Likes in media comments"
+msgstr ""
+
+#: app/admin/RTMediaLikesAdmin.php:90
+msgid "Add a \"Like\" button under every media comment in lightbox & single page."
+msgstr ""
+
+#: app/main/controllers/media/RTMediaUserLikes.php:17
+#: app/main/controllers/media/RTMediaUserLikes.php:25
+msgid "likes"
+msgstr ""
+
+#: app/main/controllers/media/RTMediaUserLikes.php:21
+msgid "like"
+msgstr ""
+
+#: app/main/controllers/media/RTMediaUserLikes.php:112
+msgid "Media liked by me"
+msgstr ""
+
+#: app/main/controllers/media/RTMediaUserLikes.php:114
+msgid "Media liked by"
+msgstr ""
+
+#: app/main/controllers/media/RTMediaUserLikes.php:232
+#: app/main/controllers/media/RTMediaUserLikes.php:233
+msgid "Likes"
+msgstr ""
+
+#: app/main/controllers/template/rtm-likes-functions.php:45
+#. translators: min=minute
+msgid "%s sec"
+msgid_plural "%s secs"
+msgstr[0] ""
+msgstr[1] ""
+
+#: app/main/controllers/template/rtm-likes-functions.php:92
+#: app/main/controllers/template/rtm-likes-functions.php:311
+msgid "no likes"
+msgstr ""
+
+#: app/main/controllers/template/rtm-likes-functions.php:115
+msgid "People Who Like This"
+msgstr ""
+
+#: app/main/controllers/template/rtm-likes-functions.php:115
+msgid "Close"
+msgstr ""
+
+#: app/main/controllers/template/rtm-likes-functions.php:116
+msgid "Loading..."
+msgstr ""
+
+#: app/main/controllers/template/rtm-likes-functions.php:222
+#: app/main/controllers/template/rtm-likes-functions.php:231
+msgid "Unlike"
+msgstr ""
+
+#: app/main/controllers/template/rtm-likes-functions.php:224
+#: app/main/controllers/template/rtm-likes-functions.php:233
+msgid "Like"
+msgstr ""
+
+#: app/main/controllers/template/rtm-likes-functions.php:346
+msgid "You"
+msgstr ""
+
+#: app/main/controllers/template/rtm-likes-functions.php:365
+msgid "liked this "
+msgstr ""
+
+#: app/main/controllers/template/rtm-likes-functions.php:365
+msgid " ago"
+msgstr ""
+
+#: index.php:178
+msgid "Settings"
+msgstr ""
+
+#: index.php:179
+msgid "Docs"
+msgstr ""
+
+#: lib/plugin-installer/RTMPluginInstaller.php:34
+#: lib/plugin-installer/RTMPluginInstaller.php:40
+msgid "rtMedia for WordPress, BuddyPress and bbPress"
+msgstr ""
+
+#: lib/plugin-installer/RTMPluginInstaller.php:54
+msgid "rtMedia Add-on(s)"
+msgstr ""
+
+#: lib/plugin-installer/RTMPluginInstaller.php:54
+msgid "won't work if rtMedia is"
+msgstr ""
+
+#: lib/plugin-installer/RTMPluginInstaller.php:58
+msgid "not installed. Click"
+msgstr ""
+
+#: lib/plugin-installer/RTMPluginInstaller.php:59
+#: lib/plugin-installer/RTMPluginInstaller.php:67
+#: lib/plugin-installer/RTMPluginInstaller.php:75
+msgid "here"
+msgstr ""
+
+#: lib/plugin-installer/RTMPluginInstaller.php:60
+msgid "to install rtMedia."
+msgstr ""
+
+#: lib/plugin-installer/RTMPluginInstaller.php:66
+#: lib/plugin-installer/RTMPluginInstaller.php:74
+msgid "not activated. Click"
+msgstr ""
+
+#: lib/plugin-installer/RTMPluginInstaller.php:68
+#: lib/plugin-installer/RTMPluginInstaller.php:76
+msgid "to activate rtMedia."
+msgstr ""
+
+#: lib/plugin-installer/RTMPluginInstaller.php:90
+#: lib/plugin-installer/RTMPluginInstaller.php:107
+msgid "ERROR: No slug was passed to the AJAX callback."
+msgstr ""
+
+#: lib/plugin-installer/RTMPluginInstaller.php:96
+msgid "ERROR: You lack permissions to install and/or activate plugins."
+msgstr ""
+
+#: lib/plugin-installer/RTMPluginInstaller.php:113
+msgid "ERROR: You lack permissions to activate plugins."
+msgstr ""
+
+#: lib/plugin-installer/RTMPluginInstaller.php:128
+#: lib/plugin-installer/RTMPluginInstaller.php:161
+msgid "ERROR: Error fetching plugin information: %s"
+msgstr ""
+
+#: lib/plugin-installer/RTMPluginInstaller.php:139
+msgid "Please ensure the file system is writable"
+msgstr ""
+
+#: lib/plugin-installer/RTMPluginInstaller.php:145
+msgid "ERROR: Failed to install plugin: %s"
+msgstr ""
+
+#: lib/plugin-installer/RTMPluginInstaller.php:151
+#: lib/plugin-installer/RTMPluginInstaller.php:184
+#: lib/plugin-installer/RTMPluginInstaller.php:192
+msgid "ERROR: Failed to activate plugin: %s"
+msgstr ""
+
+#: lib/plugin-installer/RTMPluginInstaller.php:172
+msgid "Please ensure the file system is writeable"
+msgstr ""
+
+#: lib/plugin-installer/RTMPluginInstaller.php:178
+msgid "ERROR: Failed to update plugin: %s"
+msgstr ""
+
+#: lib/rt-edd-license/RTEDDSLPluginUpdater.php:177
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" "
+"class=\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+
+#: lib/rt-edd-license/RTEDDSLPluginUpdater.php:179
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" "
+"class=\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a "
+"href=\"%4$s\">update now</a>."
+msgstr ""
+
+#: lib/rt-edd-license/RTEDDSLPluginUpdater.php:296
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: lib/rt-edd-license/RTEDDSLPluginUpdater.php:296
+msgid "Error"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "rtMedia Likes"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://rtmedia.io/products/rtmedia-likes/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin adds user's like media page and user can also see who liked "
+"media."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "rtCamp"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid ""
+"http://rtcamp.com/?utm_source=dashboard&utm_medium=plugin&utm_campaign="
+"rtmedia-likes"
+msgstr ""

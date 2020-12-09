@@ -1,0 +1,110 @@
+
+/**
+ * The events calendar
+ *
+ * Events creation & management.
+ * https://wordpress.org/plugins/the-events-calendar/
+ */
+
+
+/* Single event */
+
+.tribe-events-single-header {
+
+	margin-bottom: 1rem;
+
+	.has-post-thumbnail & {
+		@include media-breakpoint-up(md) {
+			margin-bottom: 3rem;
+		}
+	}
+
+	.tribe-events-event-image {
+		margin-top: 0;
+	}
+
+}
+
+.tribe-events-single-header-title {
+	font-size: 1.7rem;
+}
+
+.tribe-events-single-header-meta {
+
+	@include grimlock-archive-post();
+
+	.has-post-thumbnail & {
+		top: -10px;
+		@include media-breakpoint-up(md) {
+			position: absolute;
+			top: auto;
+			bottom: -25px;
+			left: -15px;
+			width: 90%;
+		}
+	}
+
+	.tribe-venue {
+		position: absolute;
+		top: -1em;
+		left: 1.5rem;
+		z-index: 9;
+		margin: 0;
+	}
+
+}
+
+#secondary-right.tribe-events-single-sidebar,
+#secondary-left.tribe-events-single-sidebar {
+	.widget {
+
+	}
+}
+
+
+/* Archives */
+#tribe-events-photo-events {
+	.card .card-body {
+		padding-top: 0;
+	}
+}
+
+
+/* Layout and wrappers */
+
+.archive.post-type-archive-tribe_events {
+	.site-content.region {
+		> .region__container {
+			@include container-max-width();
+		}
+	}
+}
+
+.single-tribe_events {
+	.site-content.region {
+		> .region__container {
+			@include container-max-width();
+		}
+	}
+}
+
+#tribe-events {
+	.site-content.region {
+		> .region__container {
+			max-width: $container-max-width-classic;
+			@include media-breakpoint-up(lg) {
+				padding-left: 25px;
+				padding-right: 25px;
+			}
+		}
+	}
+}
+
+.tribe-event__card {
+	.has-post-thumbnail & {
+		.entry-header {
+			margin-top: -20px;
+		}
+	}
+}
+

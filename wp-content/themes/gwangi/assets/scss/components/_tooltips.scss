@@ -1,0 +1,28 @@
+
+/**
+ * Tooltips
+ *
+ * Tooltips styles.
+ */
+
+.tooltip {
+	transition-delay: .4s;
+	border-radius: 500px;
+	.tooltip-inner {
+		border-radius: 500px;
+		font-weight: bold;
+		line-height: 1.3em;
+	}
+	&.show {
+		opacity: 1 !important;
+	}
+}
+
+.bs-tooltip-left .arrow,
+.bs-tooltip-auto[x-placement^="left"] .arrow {
+	right: 1px;
+}
+
+.bs-tooltip-right .arrow, .bs-tooltip-auto[x-placement^="right"] .arrow {
+	left: 1px;
+}

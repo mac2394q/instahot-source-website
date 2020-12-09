@@ -1,0 +1,39 @@
+
+/**
+ * WooCommerce
+ *
+ * King of WordPress e-commerce plugin.
+ * https://wordpress.org/plugins/woocommerce/
+ */
+
+$single-product:    '.woocommerce.single-product';
+
+#{$single-product} {
+	.grimlock--page-header {
+		padding-bottom: 0;
+	}
+}
+
+// Cards
+.product__card {
+	.card-body {
+		.entry-header {
+			.products &,
+			.posts--3-3-3-3-cols-classic &,
+			.posts--4-4-4-cols-classic &,
+			.posts--6-6-cols-classic &,
+			.posts--12-cols-classic & {
+				@include media-breakpoint-up(lg) {
+					margin-top: -20px;
+				}
+			}
+		}
+	}
+}
+
+// Loop
+.woocommerce .product div.card.product__card .product__card-header div.product-buttons,
+.woocommerce-page .product div.card.product__card .product__card-header div.product-buttons,
+.grimlock-query-section__posts .product div.card.product__card .product__card-header div.product-buttons {
+	bottom: 40px;
+}

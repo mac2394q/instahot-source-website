@@ -1,0 +1,26 @@
+
+/**
+ * Page templates
+ *
+ * Pages styles.
+ */
+
+.search-results {
+
+    .site-main > article > .entry-header,
+    .page-header {
+        display: none;
+    }
+
+    #custom_header {
+
+        .section__title {
+            span {
+                text-decoration: underline;
+                font-style: italic;
+            }
+        }
+
+    }
+
+}
